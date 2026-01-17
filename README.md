@@ -8,7 +8,8 @@ I am a developer and student with a unique focus on the intersection of **Agricu
 
 ### 🚀 Current Projects
 
-* **Sovereign Administrative Suite:** Developing a comprehensive SaaS platform designed to automate legal and administrative workflows. Currently focused on backend logic and preparing for a crowdfunding campaign.
+* **Sovereign Administrative Suite:** Developing a comprehensive SaaS platform designed to automate legal and administrative workflows. Currently focused on backend logic and preparing for a crowdfunding campaign. https://sovereign-suite-1kja.vercel.app
+  
 * **Mushroom Cultivation AI:** Building an AI-powered software solution to track and optimize mushroom growth cycles using computer vision and environmental data.
 
 ### 🛠️ Tech Stack & Skills
