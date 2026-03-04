@@ -5,13 +5,12 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sanyam--sood-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sanyam-sood/)
 [![Email](https://img.shields.io/badge/Email-snym.sood%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:snym.sood@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-sovereign--suite-black?style=flat-square&logo=vercel)](https://sovereign-suite-1kja.vercel.app)
 
 </div>
 
 ---
 
-I'm a mature undergraduate at **Wayne State College** (CS + BBA) with **4 years of professional experience** in web optimization, digital marketing analytics, and data-driven strategy. Currently pivoting deeper into **cybersecurity, backend systems, and AI-driven software**. I build things that work at the intersection of business logic and technical infrastructure.
+Senior at **Wayne State College** with **4 years of professional experience** in web optimization, digital marketing analytics, and data-driven strategy. Currently pivoting deeper into **cybersecurity, backend systems, and AI-driven software**. I build things that work at the intersection of business logic and technical infrastructure.
 
 ---
 
