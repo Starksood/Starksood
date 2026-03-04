@@ -54,7 +54,7 @@ Live API with pricing stats, trends, and mileage band breakdowns.]
 
 ---
 
-### 🍄 Mushroom Cultivation AI
+### 🍄 Mushroom Cultivation AI(In progress)
 > *Computer vision + environmental sensor pipeline for precision mycology*
 
 AI-powered growth tracking system for mushroom cultivation cycles. Built during an agribusiness internship at **FarNorth Fungi (Anchorage, AK)** — applied real-world constraints to an IoT + ML problem.
