@@ -42,13 +42,15 @@ A comprehensive platform designed to automate and streamline administrative and 
 
 ---
 
-### 🤖 [Your Claude API Project Name]
-> *[Short tagline — e.g., "REST API powered by Claude for [use case]"]*
+### 🤖 [car-auction-price-api]
+> *[REST API for car enthusiasts for auction pricing — real transaction data from BaT, Cars & Bids, and 13+ sources]*
 
 <!-- Fill in your Claude API project details here -->
-- **What it does:** [Brief description]
-- **Tech:** Anthropic Claude API, [your stack]
-- 🔗 **Repo/Demo:** [link]
+- **What it does:** [Real hammer prices from Bring a Trailer, Cars & Bids, and 13+ auction sources. 
+Query what enthusiast cars actually sell for — not estimates, real transactions. 
+Live API with pricing stats, trends, and mileage band breakdowns.]
+- **Tech:** RestAPI
+- 🔗 **Repo/Demo:** [[link](https://api-production-e1c4.up.railway.app/docs)]
 
 ---
 
