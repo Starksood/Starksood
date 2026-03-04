@@ -90,10 +90,7 @@ Logistics and community operations management.
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Starksood&show_icons=true&theme=transparent&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Starksood&layout=compact&theme=transparent&hide_border=true"/>
-</div>
+
 
 ---
 
