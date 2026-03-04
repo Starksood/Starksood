@@ -18,7 +18,7 @@ Senior at **Wayne State College** B.Sc CyberSecuirty, minor in Computer Science 
 
 ---
 
-### 🥇 Alfred & AMMA — AWS $10,000 AI Ideas Competition Semi-Finalist
+### 🥇 Alfred & AMMA — AWS $10,000 AI Ideas Competition - Semi-Finalist
 > *Dual-agent AI system for ethical shopping & personalized nutrition*
 
 A dual-agent AI architecture submitted to the **AWS #AIdeas competition** — one of the top entries from thousands of global submissions.
