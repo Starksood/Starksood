@@ -1,7 +1,7 @@
 <div align="center">
 
 # Sanyam Sood
-### Computer Science & Business Administration | Cybersecurity | Digital Marketing Veteran
+### Cybersecurity | Computer Science | Digital Marketing Veteran
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sanyam--sood-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sanyam-sood/)
 [![Email](https://img.shields.io/badge/Email-snym.sood%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:snym.sood@gmail.com)
