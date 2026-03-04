@@ -10,7 +10,7 @@
 
 ---
 
-Senior at **Wayne State College** with **4 years of professional experience** in web optimization, digital marketing analytics, and data-driven strategy. Currently pivoting deeper into **cybersecurity, backend systems, and AI-driven software**. I build things that work at the intersection of business logic and technical infrastructure.
+Senior at **Wayne State College** B.Sc CyberSecuirty, minor in Computer Science with **4 years of professional experience** in web optimization, digital marketing analytics, and data-driven strategy. Currently pivoting deeper into **cybersecurity, backend systems, and AI-driven software**. I build things that work at the intersection of business logic and technical infrastructure.
 
 ---
 
