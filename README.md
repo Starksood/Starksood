@@ -88,12 +88,6 @@ Logistics and community operations management.
 
 ---
 
-## 📊 GitHub Stats
-
-
-
----
-
 ## 🎓 Education & Certifications
 
 - **Wayne State College** — B.S. Computer Science + BBA, Agribusiness *(2025–2027)*
