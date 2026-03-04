@@ -16,15 +16,6 @@ Senior at **Wayne State College** with **4 years of professional experience** in
 
 ## 🚀 Projects
 
-### 🏛️ Sovereign Administrative Suite
-> *Full-stack SaaS platform for legal & administrative workflow automation*
-
-A comprehensive platform designed to automate and streamline administrative and legal workflows for small businesses and independent operators. Built with a focus on clean backend architecture and user-facing automation.
-
-- 🔗 **Live:** [sovereign-suite-1kja.vercel.app](https://sovereign-suite-1kja.vercel.app)
-- **Stack:** JavaScript, Vercel, REST APIs
-- **Status:** Active development — crowdfunding campaign in preparation
-
 ---
 
 ### 🥇 Alfred & AMMA — AWS $10,000 AI Ideas Competition Semi-Finalist
@@ -37,6 +28,17 @@ A dual-agent AI architecture submitted to the **AWS #AIdeas competition** — on
 - Built on AWS services with a multi-agent reasoning pipeline
 
 - 🔗 **Submission:** [View on AWS Builder Center](https://builder.aws.com/content/3APDUpWatvHmb5TAtvY6tsbSIi0/aideas-alfred-and-amma-the-dual-agent-ai-automating-ethical-shopping-and-personalized-nutrition)
+
+---
+
+### 🏛️ Sovereign Administrative Suite
+> *Full-stack SaaS platform for legal & administrative workflow automation*
+
+A comprehensive platform designed to automate and streamline administrative and legal workflows for small businesses and independent operators. Built with a focus on clean backend architecture and user-facing automation.
+
+- 🔗 **Live:** [sovereign-suite-1kja.vercel.app](https://sovereign-suite-1kja.vercel.app)
+- **Stack:** JavaScript, Vercel, REST APIs
+- **Status:** Active development — crowdfunding campaign in preparation
 
 ---
 
