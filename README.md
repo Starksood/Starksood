@@ -90,7 +90,7 @@ Logistics and community operations management.
 
 ## 🎓 Education & Certifications
 
-- **Wayne State College** — B.S. Computer Science + BBA, Agribusiness *(2025–2027)*
+- **Wayne State College** — B.S. Computer Science + CyberSecurity *(2025–2027)*
 - **IBM Data Science Specialization**
 - **Financial Markets** — Yale / Coursera *(with Honors)*
 - **Machine Learning with Python** — IBM
