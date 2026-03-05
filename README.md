@@ -28,7 +28,7 @@ A dual-agent AI architecture submitted to the **AWS #AIdeas competition** — on
 - Built on AWS services with a multi-agent reasoning pipeline
 
 - 🔗 **Submission:** [View on AWS Builder Center](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://builder.aws.com/content/3APDUpWatvHmb5TAtvY6tsbSIi0/aideas-alfred-and-amma-the-dual-agent-ai-automating-ethical-shopping-and-personalized-nutrition&ved=2ahUKEwjF9tramYeTAxVeMDQIHf-MNZ4QFnoECB0QAQ&usg=AOvVaw0ublPLp53kcgcVMIf_zwX-)
-
+**Live Project** https://main.d2odyrogzbyuno.amplifyapp.com
 ---
 
 ### 🏛️ Sovereign Administrative Suite
