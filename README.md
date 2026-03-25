@@ -31,6 +31,15 @@ A dual-agent AI architecture submitted to the **AWS #AIdeas competition** — on
 **Live Project** https://main.d2odyrogzbyuno.amplifyapp.com
 ---
 
+⚗️ The Forge
+
+Turn any document into instruction-tuning data — entirely offline.
+
+The Forge is a local Streamlit application that converts source documents (PDF, DOCX, TXT) into {system, user, assistant} conversation triples suitable for fine-tuning language models. It runs entirely on your machine using Ollama — no API keys, no cloud, no data leaving your environment.
+
+https://github.com/Starksood/the_forge/tree/main
+
+
 ### 🏛️ Sovereign Administrative Suite
 > *Full-stack SaaS platform for legal & administrative workflow automation*
 
