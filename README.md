@@ -73,7 +73,7 @@ A comprehensive platform designed to automate and streamline administrative and 
 Query what enthusiast cars actually sell for — not estimates, real transactions. 
 Live API with pricing stats, trends, and mileage band breakdowns.]
 - **Tech:** RestAPI
-- 🔗 **Repo/Demo:** [[link](https://api-production-e1c4.up.railway.app/docs)]
+- 🔗 **Repo/Demo:** [[link](https://fearless-inspiration-production.up.railway.app/)]
 
 ---
 
