@@ -37,7 +37,19 @@ Turn any document into instruction-tuning data — entirely offline.
 
 The Forge is a local Streamlit application that converts source documents (PDF, DOCX, TXT) into {system, user, assistant} conversation triples suitable for fine-tuning language models. It runs entirely on your machine using Ollama — no API keys, no cloud, no data leaving your environment.
 
-https://github.com/Starksood/the_forge/tree/main
+<a href="https://github.com/Starksood/the_forge/tree/main">
+
+
+SHAMAN.OS
+
+A fully offline macOS desktop app that puts a psychedelic trip guide in your pocket. Speak freely — the Guide listens, responds through synthesized speech, and holds space with ambient generative audio and a live fractal visual. No internet, no accounts, no cloud.
+
+The project has two parts:
+
+shamanos_app/ — Electron desktop app (voice loop, visuals, audio)
+shamanos_training/ — Fine-tune pipeline that produces the shamanos Ollama model
+
+<a href ="https://github.com/Starksood/Shaman.io">
 
 
 ### 🏛️ Sovereign Administrative Suite
