@@ -39,6 +39,7 @@ The Forge is a local Streamlit application that converts source documents (PDF, 
 
 <a href="https://github.com/Starksood/the_forge/tree/main" ></a>
 
+---
 
 SHAMAN.OS
 
@@ -51,6 +52,7 @@ shamanos_training/ — Fine-tune pipeline that produces the shamanos Ollama mode
 
 <a href ="https://github.com/Starksood/Shaman.io"></a>
 
+---
 
 ### 🏛️ Sovereign Administrative Suite
 > *Full-stack SaaS platform for legal & administrative workflow automation*
