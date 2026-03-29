@@ -25,6 +25,23 @@ I am a Senior at **Wayne State College** pursuing a B.S. in Cybersecurity with a
 * **Stack:** AWS Services, Multi-agent Reasoning Pipeline.
 * 🔗 [View on AWS Builder Center](https://builder.aws.com/content/3APDUpWatvHmb5TAtvY6tsbSIi0/aideas-alfred-and-amma-the-dual-agent-ai-automating-ethical-shopping-and-personalized-nutrition) | [Live Demo](https://main.d2odyrogzbyuno.amplifyapp.com)
 
+### 🏎️ Car Auction Price API
+Car Auction Intelligence Platform
+
+A data platform that tracks enthusiast car auctions across 8 sources, processes listings into a structured PostgreSQL database, and exposes pricing intelligence through a REST API and React dashboard.
+
+Live services:
+
+API: <a href="https://carapi-production-5936.up.railway.app"> Live API </a><br>
+Dashboard: <a href="https://fearless-inspiration-production.up.railway.app"> Dashboard </a><br>
+API Docs: <a href="https://carapi-production-5936.up.railway.app/docs"> API DOCS </a>
+What it does
+
+The platform answers one core question: is this car at this asking price a good deal?
+
+It does this by continuously scraping auction results from Bring a Trailer, eBay Motors, Mecum, Barrett-Jackson, Collecting Cars, RM Sotheby's, Copart, and Reddit — normalizing the data, running quality checks, and storing it in a structured database. The API then exposes historical pricing, deal scoring, market trends, and vehicle comparisons.
+
+
 ### ⚗️ The Forge
 **Offline instruction-tuning data generation.**
 * Converts source documents (PDF, DOCX, TXT) into `{system, user, assistant}` triples for LLM fine-tuning.
@@ -43,21 +60,6 @@ I am a Senior at **Wayne State College** pursuing a B.S. in Cybersecurity with a
 * **Stack:** JavaScript, Vercel, REST APIs.
 * 🔗 [Live Site](https://sovereign-suite-1kja.vercel.app)
 
-### 🏎️ Car Auction Price API
-Car Auction Intelligence Platform
-
-A data platform that tracks enthusiast car auctions across 8 sources, processes listings into a structured PostgreSQL database, and exposes pricing intelligence through a REST API and React dashboard.
-
-Live services:
-
-API: <a href="https://carapi-production-5936.up.railway.app"> Live API </a>
-Dashboard: <a href="https://fearless-inspiration-production.up.railway.app"> Dashboard </a>
-API Docs: <a href="https://carapi-production-5936.up.railway.app/docs"> API DOCS </a>
-What it does
-
-The platform answers one core question: is this car at this asking price a good deal?
-
-It does this by continuously scraping auction results from Bring a Trailer, eBay Motors, Mecum, Barrett-Jackson, Collecting Cars, RM Sotheby's, Copart, and Reddit — normalizing the data, running quality checks, and storing it in a structured database. The API then exposes historical pricing, deal scoring, market trends, and vehicle comparisons.
 
 ---
 
