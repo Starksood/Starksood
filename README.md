@@ -23,7 +23,7 @@ I am a Senior at **Wayne State College** pursuing a B.S. in Cybersecurity with a
 * **Alfred:** Automates values-aligned shopping decisions.
 * **AMMA:** Delivers adaptive, personalized nutrition planning.
 * **Stack:** AWS Services, Multi-agent Reasoning Pipeline.
-* 🔗 [View on AWS Builder Center](https://builder.aws.com/content/3APDUpWatvHmb5TAtvY6tsbSIi0/aideas-alfred-and-amma-the-dual-agent-ai-automating-ethical-shopping-and-personalized-nutrition) | [Live Demo](https://main.d2odyrogzbyuno.amplifyapp.com)
+* 🔗 [View on AWS Builder Center](https://builder.aws.com/content/3APDUpWatvHmb5TAtvY6tsbSIi0/aideas-alfred-and-amma-the-dual-agent-ai-automating-ethical-shopping-and-personalized-nutrition) | <br>[Web App](https://main.d2odyrogzbyuno.amplifyapp.com)
 
 ### 🏎️ Car Auction Price API
 Car Auction Intelligence Platform
