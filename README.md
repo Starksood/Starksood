@@ -32,9 +32,8 @@ A data platform that tracks enthusiast car auctions across 8 sources, processes 
 
 Live services:
 
-API: <a href="https://carapi-production-5936.up.railway.app"> Live API </a><br>
-Dashboard: <a href="https://fearless-inspiration-production.up.railway.app"> Dashboard </a><br>
-API Docs: <a href="https://carapi-production-5936.up.railway.app/docs"> API DOCS </a>
+App: <a href="https://gavel-inky.vercel.app"> Live API </a><br>
+API Docs: <a href="https://gavel-inky.vercel.app/docs"> API DOCS </a>
 What it does
 
 The platform answers one core question: is this car at this asking price a good deal?
