@@ -13,7 +13,7 @@
 
 ### 👨‍💻 About Me
 
-Senior at **Wayne State College** — B.S. Cybersecurity, minor in Computer Science. Four years of professional analytics work at a national-scale organization; now building production systems at the intersection of data pipelines, decision engines, and AI.
+Senior at **Wayne State College** — Double Major - B.S. Cybersecurity + B.Sc Computer Science. Four years of professional analytics work at a national-scale organization; now building production systems at the intersection of data pipelines, decision engines, and AI.
 
 I don't do toy projects. Everything I ship has real users, real data, and real infrastructure requirements behind it.
 
@@ -108,7 +108,7 @@ A full-stack market intelligence platform that aggregates sold auction data from
 
 ## 🎓 Education & Certifications
 
-- **B.S. Cybersecurity + Minor in Computer Science** | Wayne State College (Expected 2027)
+- **B.S. Cybersecurity + B.Sc in Computer Science** | Wayne State College (Expected 2027)
 - **IBM Data Science Professional Certificate**
 - **Machine Learning with Python** | IBM
 - **Financial Markets (with Honors)** | Yale University
