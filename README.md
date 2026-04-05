@@ -24,7 +24,7 @@ I don't do toy projects. Everything I ship has real users, real data, and real i
 ---
 
 ### 🏎️ Redline — Collector Car Market Intelligence Platform
-> **Live:** [redlineauto.click](https://redlineauto.click) · [API](https://principal-tallou-gavel-3718a78a.koyeb.app) · [Docs](https://principal-tallou-gavel-3718a78a.koyeb.app/docs)
+> **Live:** [www.redlineauto.click](https://redlineauto.click) · [API](https://principal-tallou-gavel-3718a78a.koyeb.app) · [Docs](https://principal-tallou-gavel-3718a78a.koyeb.app/docs)
 
 A full-stack market intelligence platform that aggregates sold auction data from **14+ sources**, runs it through a multi-factor decision engine, and answers: *is this a good deal, and should I buy now or wait?*
 
