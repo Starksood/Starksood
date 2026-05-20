@@ -24,7 +24,7 @@ I don't do toy projects. Everything I ship has real users, real data, and real i
 ---
 
 ### 🌸 Fireweed Fabric — Memory-First AI Architecture
-> **In development** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
+> **In development(Private Repo)** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
 
 Research system for **persistent, emotionally-weighted LLM memory** — architecturally distinct from RAG. A per-user **memory graph** (`memory_loop.py` v2.0) accumulates structured claims across sessions; a **fine-tuned memory operator** (Qwen2.5-3B → Q4_K_M GGUF) proposes graph ops while deterministic Python enforces mutations, domain safety, and layer promotion.
 
