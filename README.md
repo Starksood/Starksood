@@ -23,6 +23,27 @@ I don't do toy projects. Everything I ship has real users, real data, and real i
 
 ---
 
+### 🌸 Fireweed Fabric — Memory-First AI Architecture
+> **In development** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
+
+Research system for **persistent, emotionally-weighted LLM memory** — architecturally distinct from RAG. A per-user **memory graph** (`memory_loop.py` v2.0) accumulates structured claims across sessions; a **fine-tuned memory operator** (Qwen2.5-3B → Q4_K_M GGUF) proposes graph ops while deterministic Python enforces mutations, domain safety, and layer promotion.
+
+**Thesis:** *accumulation* (biological reinforcement) + *synthesis* (INFER/REFLECT) + *inhabitation* (respond from durable knowledge, not chunk lookup).
+
+| Dimension | Details |
+|---|---|
+| **Memory fabric** | Stateful node graph — CREATE / REINFORCE / MODIFY / DISPUTE / FREEZE; cosine dedup (≥0.94); WARM→HOT→CORE via strength `r`; idle decay `0.012×turns`; atomic snapshot I/O + `verify_snapshot()` integrity gate |
+| **v2.0 substrate** | Affective valence `[-1,1]` modulates decay; **curiosity drive** surfaces diverse COLD nodes when HOT semantic density ≥0.72; **dual-process routing** (fast ~300 tok vs slow ~1800 tok) gated on compliance + constitutional events |
+| **v15 claim layer** | `ClaimNode` + epistemic status (`USER_STATED` / `INFERRED` / `ASSUMPTION` / `SUPERSEDED`); 2-channel `ReinforcementVector`; ghost-ID reroute on bad operator targets |
+| **v16 pipeline** *(active)* | LLM emits normalized claims → **Memory Claim Firewall** (ACCEPT/RESCUE/REJECT/QUARANTINE) → deterministic resolver (CREATE/MODIFY/REINFORCE/DEDUP/NOOP) — extraction decoupled from mutation |
+| **Backends** | Pluggable `FABRIC_BACKEND` (Ollama / OpenAI-compatible / Anthropic); embeddings via `FABRIC_EMBED_MODEL`, independent of operator model |
+| **Validation** | **320+ pytest** incl. Hypothesis property tests; ingestion trace harnesses (exp041 HOT/CORE promotion, exp044 domain-mismatch recovery) |
+| **Benchmarks** | `FabricAdapter` for LoCoMo / StructMemEval; Mem0 + RAG ablation baselines |
+| **Stack** | Python · FastAPI · httpx · LM Studio/Ollama · TRL/PEFT fine-tune pipeline · Docker |
+
+**Operator lineage:** v10→v15 Modelfiles + curated JSONL shards; GGUF weights (~1.9 GB Q4_K_M) hosted outside git.
+---
+
 ### 🏎️ Redline — Collector Car Market Intelligence Platform
 > **Live:** [www.redlineauto.click](https://redlineauto.click) · [API](https://principal-tallou-gavel-3718a78a.koyeb.app) · [Docs](https://principal-tallou-gavel-3718a78a.koyeb.app/docs)
 
@@ -46,28 +67,6 @@ A full-stack market intelligence platform that aggregates sold auction data from
 - `GET /v1/market/wait-index` — supply/velocity signal for any make/model
 - `GET /v1/auctions/search` — natural language auction search via Groq
 - `GET /v1/pricing` — P10–P90 historical distribution + quarterly trend
-
----
-
-### 🌸 Fireweed Fabric — Memory-First AI Architecture
-> **In development** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
-
-Research system for **persistent, emotionally-weighted LLM memory** — architecturally distinct from RAG. A per-user **memory graph** (`memory_loop.py` v2.0) accumulates structured claims across sessions; a **fine-tuned memory operator** (Qwen2.5-3B → Q4_K_M GGUF) proposes graph ops while deterministic Python enforces mutations, domain safety, and layer promotion.
-
-**Thesis:** *accumulation* (biological reinforcement) + *synthesis* (INFER/REFLECT) + *inhabitation* (respond from durable knowledge, not chunk lookup).
-
-| Dimension | Details |
-|---|---|
-| **Memory fabric** | Stateful node graph — CREATE / REINFORCE / MODIFY / DISPUTE / FREEZE; cosine dedup (≥0.94); WARM→HOT→CORE via strength `r`; idle decay `0.012×turns`; atomic snapshot I/O + `verify_snapshot()` integrity gate |
-| **v2.0 substrate** | Affective valence `[-1,1]` modulates decay; **curiosity drive** surfaces diverse COLD nodes when HOT semantic density ≥0.72; **dual-process routing** (fast ~300 tok vs slow ~1800 tok) gated on compliance + constitutional events |
-| **v15 claim layer** | `ClaimNode` + epistemic status (`USER_STATED` / `INFERRED` / `ASSUMPTION` / `SUPERSEDED`); 2-channel `ReinforcementVector`; ghost-ID reroute on bad operator targets |
-| **v16 pipeline** *(active)* | LLM emits normalized claims → **Memory Claim Firewall** (ACCEPT/RESCUE/REJECT/QUARANTINE) → deterministic resolver (CREATE/MODIFY/REINFORCE/DEDUP/NOOP) — extraction decoupled from mutation |
-| **Backends** | Pluggable `FABRIC_BACKEND` (Ollama / OpenAI-compatible / Anthropic); embeddings via `FABRIC_EMBED_MODEL`, independent of operator model |
-| **Validation** | **320+ pytest** incl. Hypothesis property tests; ingestion trace harnesses (exp041 HOT/CORE promotion, exp044 domain-mismatch recovery) |
-| **Benchmarks** | `FabricAdapter` for LoCoMo / StructMemEval; Mem0 + RAG ablation baselines |
-| **Stack** | Python · FastAPI · httpx · LM Studio/Ollama · TRL/PEFT fine-tune pipeline · Docker |
-
-**Operator lineage:** v10→v15 Modelfiles + curated JSONL shards; GGUF weights (~1.9 GB Q4_K_M) hosted outside git.
 
 ---
 
