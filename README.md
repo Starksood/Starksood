@@ -49,6 +49,28 @@ A full-stack market intelligence platform that aggregates sold auction data from
 
 ---
 
+### 🌸 Fireweed Fabric — Memory-First AI Architecture
+> **In development** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
+
+Research system for **persistent, emotionally-weighted LLM memory** — architecturally distinct from RAG. A per-user **memory graph** (`memory_loop.py` v2.0) accumulates structured claims across sessions; a **fine-tuned memory operator** (Qwen2.5-3B → Q4_K_M GGUF) proposes graph ops while deterministic Python enforces mutations, domain safety, and layer promotion.
+
+**Thesis:** *accumulation* (biological reinforcement) + *synthesis* (INFER/REFLECT) + *inhabitation* (respond from durable knowledge, not chunk lookup).
+
+| Dimension | Details |
+|---|---|
+| **Memory fabric** | Stateful node graph — CREATE / REINFORCE / MODIFY / DISPUTE / FREEZE; cosine dedup (≥0.94); WARM→HOT→CORE via strength `r`; idle decay `0.012×turns`; atomic snapshot I/O + `verify_snapshot()` integrity gate |
+| **v2.0 substrate** | Affective valence `[-1,1]` modulates decay; **curiosity drive** surfaces diverse COLD nodes when HOT semantic density ≥0.72; **dual-process routing** (fast ~300 tok vs slow ~1800 tok) gated on compliance + constitutional events |
+| **v15 claim layer** | `ClaimNode` + epistemic status (`USER_STATED` / `INFERRED` / `ASSUMPTION` / `SUPERSEDED`); 2-channel `ReinforcementVector`; ghost-ID reroute on bad operator targets |
+| **v16 pipeline** *(active)* | LLM emits normalized claims → **Memory Claim Firewall** (ACCEPT/RESCUE/REJECT/QUARANTINE) → deterministic resolver (CREATE/MODIFY/REINFORCE/DEDUP/NOOP) — extraction decoupled from mutation |
+| **Backends** | Pluggable `FABRIC_BACKEND` (Ollama / OpenAI-compatible / Anthropic); embeddings via `FABRIC_EMBED_MODEL`, independent of operator model |
+| **Validation** | **320+ pytest** incl. Hypothesis property tests; ingestion trace harnesses (exp041 HOT/CORE promotion, exp044 domain-mismatch recovery) |
+| **Benchmarks** | `FabricAdapter` for LoCoMo / StructMemEval; Mem0 + RAG ablation baselines |
+| **Stack** | Python · FastAPI · httpx · LM Studio/Ollama · TRL/PEFT fine-tune pipeline · Docker |
+
+**Operator lineage:** v10→v15 Modelfiles + curated JSONL shards; GGUF weights (~1.9 GB Q4_K_M) hosted outside git.
+
+---
+
 ### 🥇 Alfred & AMMA | *AWS $10,000 AI Ideas Competition — Semi-Finalist*
 **Dual-agent AI system for ethical shopping & personalized nutrition.**
 - **Alfred:** Automates values-aligned purchasing decisions across retailer ecosystems.
@@ -88,7 +110,7 @@ A full-stack market intelligence platform that aggregates sold auction data from
 |---|---|
 | **Languages** | Python, JavaScript/TypeScript (ES6+), SQL, R, Java, HTML5/CSS3 |
 | **Backend** | FastAPI, asyncio, SQLAlchemy 2.x, Alembic, Playwright, httpx |
-| **Data & AI** | PostgreSQL, Redis, Groq (llama-3.3-70b), Ollama, TensorFlow, Scikit-learn |
+| **Data & AI** | PostgreSQL, Redis, Groq (llama-3.3-70b), Ollama, TRL/PEFT, TensorFlow, Scikit-learn |
 | **Infrastructure** | GitHub Actions (CI/CD + scheduled pipelines), Koyeb, Vercel, AWS, Neon, Upstash |
 | **Frontend** | React 18, Vite, Tailwind CSS, Recharts |
 | **Security** | SHA-256 key auth, HMAC webhook verification, rate limiting, network security |
