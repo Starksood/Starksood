@@ -25,6 +25,8 @@ While actively engineering research-driven systems—ranging from deterministic 
 
 ### 🌸 Fireweed Fabric — Memory-First AI Architecture
 > **In Development (Private Repo)** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
+📊 Fireweed — Paper Verification Bundle
+> **Public Archive** · [GitHub](https://github.com/Starksood/Fireweed_Fabric) Independent verification repository for the paper *"A Model-Independent Memory Substrate: Preserving an Agent's Account of a User Across LLM Swaps, Scales, and Families."*
 
 Research system for **persistent, emotionally-weighted LLM memory** — architecturally distinct from RAG. A per-user **memory graph** accumulates structured claims across sessions; a fine-tuned memory operator proposes graph ops while deterministic Python enforces mutations and domain safety.
 
@@ -37,19 +39,6 @@ Research system for **persistent, emotionally-weighted LLM memory** — architec
 | **v16 Pipeline** | LLM emits normalized claims → **Memory Claim Firewall** → deterministic resolver. Extraction is strictly decoupled from mutation. |
 | **Validation** | **320+ pytest** incl. Hypothesis property tests; ingestion trace harnesses. Benchmark against Mem0 + RAG ablation baselines. |
 | **Stack** | Python · FastAPI · httpx · LM Studio/Ollama · TRL/PEFT fine-tune pipeline · Docker |
-
----
-
-### 📊 Fireweed — Paper Verification Bundle
-> **Public Archive** · [GitHub](https://github.com/Starksood/Fireweed_Fabric)
-
-Independent verification repository for the paper *"A Model-Independent Memory Substrate: Preserving an Agent's Account of a User Across LLM Swaps, Scales, and Families."*
-
-| Dimension | Details |
-|---|---|
-| **Core Systems Claim** | A deterministic memory substrate, not the language model, is the durable object. Swapping the model fully preserves the system's account of the user. |
-| **Reproducible Scope** | Excludes raw perception generation (requires closed implementation/GPU), but provides 100% reproducibility of all statistics over captured outputs (floors, ceilings, null controls, cluster-robust tests, lesions, and data tables). |
-| **Architecture** | Recomputed entirely on one public sentence encoder (`sentence-transformers/all-MiniLM-L6-v2`). After the initial model download, verification runs locally without the proprietary Fireweed source, LM Studio, GPU, or network access. |
 
 ---
 
