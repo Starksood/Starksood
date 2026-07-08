@@ -1,7 +1,7 @@
 <div align="center">
 
 # Sanyam Sood
-### Backend Systems · Data Engineering · AI-Driven Products
+### Backend Systems · Offensive Security · AI-Driven Products
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanyam--sood/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snym.sood@gmail.com)
@@ -13,113 +13,145 @@
 
 ### 👨‍💻 About Me
 
-Senior at **Wayne State College** pursuing a dual degree: **B.S. Cybersecurity & B.Sc. Computer Science**. Backed by four years of professional analytics work at a national-scale organization, I build production systems at the intersection of complex data pipelines, multi-factor decision engines, and deterministic AI architectures.
+Senior at **Wayne State College** — Double Major: B.S. Cybersecurity + B.Sc. Computer Science. Four years of professional analytics and systems development at a national-scale organization; building production architecture at the intersection of data pipelines, decision engines, and AI.
 
-I don't do toy projects. Everything I ship has real users, live data, and strict infrastructure requirements behind it.
-
----
-
-## 🚀 Featured Engineering
+I don't do toy projects. Everything I ship has real users, real data, and real infrastructure requirements behind it.
 
 ---
 
-### 📈 CIM SEO Automation Platform
-> **Enterprise Tooling (Private Repo)** · Analytics Orchestration · AI Intelligence
-
-An enterprise-grade automation platform that orchestrates multiple monitoring and reporting workflows, unifying data from Google Analytics 4, Search Console, and PageSpeed Insights into a centralized, AI-enhanced intelligence pipeline for stakeholder decision-making.
-
-| Dimension | Details |
-|---|---|
-| **Architecture** | Master orchestrator pattern routing to parallel API-based analytics pipelines and serial crawl-based technical workers. |
-| **Data Ingestion** | Automated extraction from GA4 Data API, GSC API (queries, landings, ranking positions), and PageSpeed Insights (Core Web Vitals). |
-| **Technical Audits** | Async crawler utilizing Playwright and BeautifulSoup for broken link detection, internal link structure analysis, and orphan page identification. |
-| **AI Integration** | Groq (Llama-3.3-70b) integration to evaluate pages for AI-search readiness, hallucination risk, and executive summary generation. |
-| **Data I/O & Sync** | Bidirectional syncing with Monday.com via GraphQL, historical persistence in Google Sheets, and automated multi-format output (PDF via WeasyPrint, HTML dashboards, CSV, Markdown). |
-| **Stack** | Python 3.8+ · asyncio · Playwright · pandas · Groq SDK · Monday.com API · WeasyPrint |
+## 🚀 Featured Projects
 
 ---
 
 ### 🌸 Fireweed Fabric — Memory-First AI Architecture
 > **In Development (Private Repo)** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
 
-Research system for **persistent, emotionally-weighted LLM memory** — architecturally distinct from RAG. A per-user **memory graph** accumulates structured claims across sessions; a fine-tuned memory operator proposes graph ops while deterministic Python enforces mutations and domain safety.
+Research system for **persistent, emotionally-weighted LLM memory** — architecturally distinct from RAG. A per-user **memory graph** (`memory_loop.py` v2.0) accumulates structured claims across sessions; a **fine-tuned memory operator** (Qwen2.5-3B → Q4_K_M GGUF) proposes graph ops while deterministic Python enforces mutations, domain safety, and layer promotion.
 
 **Thesis:** *accumulation* (biological reinforcement) + *synthesis* (INFER/REFLECT) + *inhabitation* (respond from durable knowledge, not chunk lookup).
 
 | Dimension | Details |
 |---|---|
-| **Memory Fabric** | Stateful node graph — CREATE / REINFORCE / MODIFY / DISPUTE / FREEZE; cosine dedup (≥0.94); WARM→HOT→CORE via strength `r`; idle decay `0.012×turns`; atomic snapshot I/O. |
-| **v2.0 Substrate** | Affective valence `[-1,1]` modulates decay; **curiosity drive** surfaces diverse COLD nodes; **dual-process routing** gated on compliance + constitutional events. |
-| **v16 Pipeline** | LLM emits normalized claims → **Memory Claim Firewall** → deterministic resolver. Extraction is strictly decoupled from mutation. |
-| **Validation** | **320+ pytest** incl. Hypothesis property tests; ingestion trace harnesses. Benchmark against Mem0 + RAG ablation baselines. |
+| **Memory fabric** | Stateful node graph — CREATE / REINFORCE / MODIFY / DISPUTE / FREEZE; cosine dedup (≥0.94); WARM→HOT→CORE via strength `r`; idle decay `0.012×turns`; atomic snapshot I/O + `verify_snapshot()` integrity gate |
+| **v2.0 substrate** | Affective valence `[-1,1]` modulates decay; **curiosity drive** surfaces diverse COLD nodes when HOT semantic density ≥0.72; **dual-process routing** (fast ~300 tok vs slow ~1800 tok) gated on compliance + constitutional events |
+| **v15 claim layer** | `ClaimNode` + epistemic status (`USER_STATED` / `INFERRED` / `ASSUMPTION` / `SUPERSEDED`); 2-channel `ReinforcementVector`; ghost-ID reroute on bad operator targets |
+| **v16 pipeline** *(active)* | LLM emits normalized claims → **Memory Claim Firewall** (ACCEPT/RESCUE/REJECT/QUARANTINE) → deterministic resolver (CREATE/MODIFY/REINFORCE/DEDUP/NOOP) — extraction decoupled from mutation |
+| **Backends** | Pluggable `FABRIC_BACKEND` (Ollama / OpenAI-compatible / Anthropic); embeddings via `FABRIC_EMBED_MODEL`, independent of operator model |
+| **Validation** | **320+ pytest** incl. Hypothesis property tests; ingestion trace harnesses (exp041 HOT/CORE promotion, exp044 domain-mismatch recovery) |
+| **Benchmarks** | `FabricAdapter` for LoCoMo / StructMemEval; Mem0 + RAG ablation baselines |
 | **Stack** | Python · FastAPI · httpx · LM Studio/Ollama · TRL/PEFT fine-tune pipeline · Docker |
+
+**Operator lineage:** v10→v15 Modelfiles + curated JSONL shards; GGUF weights (~1.9 GB Q4_K_M) hosted outside git.
 
 ---
 
 ### 🏎️ Redline — Collector Car Market Intelligence Platform
 > **Live:** [www.redlineauto.click](https://redlineauto.click) · [API](https://principal-tallou-gavel-3718a78a.koyeb.app) · [Docs](https://principal-tallou-gavel-3718a78a.koyeb.app/docs)
 
-A full-stack market intelligence platform aggregating sold auction data from **14+ sources**, routing it through a multi-factor decision engine to determine real-time vehicle viability and market trends.
+A full-stack market intelligence platform that aggregates sold auction data from **14+ sources**, runs it through a multi-factor decision engine, and answers: *is this a good deal, and should I buy now or wait?*
+
+**What makes it production-grade:**
 
 | Dimension | Details |
 |---|---|
-| **Data Ingestion** | 8 concurrent async scrapers (BaT, Mecum, Barrett-Jackson, etc.) orchestrated via `asyncio.Semaphore(5)`. |
-| **Decision Engine** | Deal Score (0–100) across 5 weighted factors + Viability Score formula with BUY / WAIT / PASS verdicts. |
-| **Data Quality** | Stringent quarantine layer prior to DB upsert rejecting price anomalies, mileage outliers, and non-vehicle listings. |
-| **Automation** | 11 scheduled GitHub Actions jobs handling daily scraping, normalization, AI summaries, SEO generation, and social distribution. |
-| **Monetization** | Stripe-integrated tiered API (Free → $149/mo Business), Redis sliding-window rate limiting, SHA-256 key auth. |
-| **Stack** | FastAPI · PostgreSQL (Neon) · Redis (Upstash) · React 18 / TypeScript · Vercel · Playwright · Groq |
+| **Data ingestion** | 8 concurrent async scrapers (BaT, eBay Motors, Mecum, Barrett-Jackson, Cars & Bids, PCAR Market, Craigslist, AutoTrader) — all orchestrated via `asyncio.Semaphore(5)` |
+| **Decision engine** | Deal Score (0–100) across 5 weighted factors + Viability Score formula `VS = 0.40P + 0.25R + 0.20L + 0.15TCO` with BUY / WAIT / PASS verdict |
+| **Data quality** | Every record validated through a quarantine layer before DB upsert — rejects bad prices, mileage outliers, non-vehicle listings |
+| **Test coverage** | **1,398+ tests** — unit, integration, and Hypothesis property-based tests. SQLite in-memory fixtures, zero external deps required |
+| **Automation** | Fully zero-touch: 11 scheduled GitHub Actions jobs, daily scraping → normalization → enrichment → AI summaries → SEO pages → social distribution |
+| **AI integration** | Groq (llama-3.3-70b) for natural language search, weekly editorial newsletters, buyer briefs, and content humanization |
+| **Monetization** | Stripe-integrated tiered API (Free → $149/mo Business), Redis sliding-window rate limiting, SHA-256 key auth |
+| **Stack** | FastAPI · PostgreSQL (Neon) · Redis (Upstash) · React 18 + Vite + TypeScript · Koyeb · Vercel · Playwright |
+
+**Core APIs (all public, no key required):**
+- `POST /v1/deal-score` — score any vehicle 0–100 with comparable auction data
+- `GET /v1/market/wait-index` — supply/velocity signal for any make/model
+- `GET /v1/auctions/search` — natural language auction search via Groq
+- `GET /v1/pricing` — P10–P90 historical distribution + quarterly trend
 
 ---
 
-## 🔬 Additional Projects
+### 📈 CIM Enterprise SEO & Analytics Orchestrator
+> **Enterprise Production System** · *CIM Internal Platform* · `v2.0-automated`
 
-*   **[Alfred & AMMA](https://main.d2odyrogzbyuno.amplifyapp.com)**: AWS $10,000 AI Ideas Competition Semi-Finalist. A dual-agent AI architecture deployed on AWS automating ethical shopping workflows and personalized nutrition mapping.
-*   **[Sovereign Administrative Suite](https://sovereign-suite-1kja.vercel.app)**: Full-stack SaaS platform utilizing JavaScript, Vercel, and REST APIs for legal & administrative paperwork automation.
-*   **[The Forge](https://github.com/Starksood/the_forge/tree/main)**: Local, offline instruction-tuning dataset generator utilizing Ollama to convert source documents into strict `{system, user, assistant}` triples.
-*   **[SHAMAN.OS](https://github.com/Starksood/Shaman.io)**: Voice-to-voice interaction loop with custom fine-tuned local models and live fractal visual generation.
+An enterprise-grade SEO automation and intelligence platform built for the Chartered Institute of Marketing. Orchestrates parallel API monitoring workflows and asynchronous crawlers across Google Analytics 4, Search Console, and PageSpeed Insights, delivering AI-synthesized executive briefs and updating project management workflows in real time.
 
----
-
-## 🛠️ Technical Arsenal
-
-| Category | Technologies |
+| Dimension | Details |
 |---|---|
-| **Languages** | Python, JavaScript/TypeScript (ES6+), SQL, HTML5/CSS3 |
-| **Backend & Orchestration** | FastAPI, asyncio, SQLAlchemy 2.x, Playwright, pandas |
-| **Data & AI** | PostgreSQL, Redis, Groq (Llama-3.3-70b), Ollama, TRL/PEFT, TensorFlow, Scikit-learn |
-| **Infrastructure & DevOps** | GitHub Actions (CI/CD), Koyeb, Vercel, AWS, Neon, Upstash, Docker |
-| **Frontend** | React 18, Vite, Tailwind CSS, Recharts |
-| **Security & Quality** | SHA-256 Auth, HMAC Verification, Rate Limiting, pytest, Hypothesis |
+| **Orchestration Engine** | Master controller (`master_orchestrator.py`) managing parallel API ingestion pipelines (GA4, GSC, PageSpeed) and serial async crawlers for site-wide technical auditing |
+| **Technical SEO Audits** | Core Web Vitals tracking (LCP, INP, CLS); asynchronous broken link & redirect crawler; internal link structure analysis with orphan page detection; content refresh scoring |
+| **AI & Hallucination Guard** | Integrates Groq (`llama-3.3-70b-versatile`) for automated stakeholder insight generation and evaluates pages for AI search readiness and LLM hallucination risk via Playwright browser automation |
+| **Enterprise Integrations** | Automated synchronization with Monday.com via GraphQL API for task tracking; persistent historical database logging via Google Sheets (`gspread`); OAuth2 Google Cloud Service Account auth |
+| **Multi-Format Reporting** | Automated stakeholder distribution generating styled PDFs (WeasyPrint/ReportLab), interactive HTML dashboards, CSV data datasets, and Markdown executive summaries |
+| **Stack** | Python 3.8+ · asyncio · Playwright · BeautifulSoup · Google Cloud APIs · Monday.com GraphQL · Groq API · WeasyPrint · pandas / numpy |
+
+---
+
+### 🥇 Alfred & AMMA | *AWS $10,000 AI Ideas Competition — Semi-Finalist*
+**Dual-agent AI system for ethical shopping & personalized nutrition.**
+- **Alfred:** Automates values-aligned purchasing decisions across retailer ecosystems.
+- **AMMA:** Delivers adaptive, personalized nutrition planning at the individual level.
+- **Stack:** AWS multi-agent reasoning pipeline.
+- 🔗 [AWS Builder Center](https://builder.aws.com/content/3APDUpWatvHmb5TAtvY6tsbSIi0/aideas-alfred-and-amma-the-dual-agent-ai-automating-ethical-shopping-and-personalized-nutrition) · [Web App](https://main.d2odyrogzbyuno.amplifyapp.com)
+
+---
+
+### ⚗️ The Forge
+**Offline instruction-tuning dataset generator.**
+- Converts source documents (PDF, DOCX, TXT) into `{system, user, assistant}` triples for LLM fine-tuning.
+- Runs entirely via **Ollama** — zero data leaves the machine.
+- 🔗 [GitHub](https://github.com/Starksood/the_forge/tree/main)
+
+---
+
+### 🌿 SHAMAN.OS
+**Offline macOS guide for psychedelic harm reduction and integration.**
+- Voice-to-voice interaction loop with synthesized speech and live fractal visuals.
+- Custom fine-tuning pipeline for a specialized Ollama model.
+- 🔗 [GitHub](https://github.com/Starksood/Shaman.io)
+
+---
+
+### 🏛️ Sovereign Administrative Suite
+**Full-stack SaaS for legal & administrative workflow automation.**
+- Built for small businesses and independent operators managing high-volume paperwork.
+- **Stack:** JavaScript, Vercel, REST APIs.
+- 🔗 [Live Site](https://sovereign-suite-1kja.vercel.app)
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools & Languages |
+|---|---|
+| **Languages** | Python, JavaScript/TypeScript (ES6+), SQL, R, Java, HTML5/CSS3 |
+| **Backend & Scraping** | FastAPI, asyncio, SQLAlchemy 2.x, Alembic, Playwright, BeautifulSoup, httpx, aiohttp |
+| **Data & AI** | PostgreSQL, Redis, Groq (llama-3.3-70b), Ollama, TRL/PEFT, TensorFlow, Scikit-learn, pandas, numpy |
+| **Infrastructure & APIs** | GitHub Actions (CI/CD + scheduled pipelines), Koyeb, Vercel, AWS, Neon, Upstash, Google Cloud APIs, Monday.com GraphQL |
+| **Frontend & Reporting** | React 18, Vite, Tailwind CSS, Recharts, WeasyPrint, ReportLab |
+| **Security & Auth** | OAuth2, SHA-256 key auth, HMAC webhook verification, rate limiting, network security |
+| **Testing** | pytest, Hypothesis (property-based), SQLite in-memory fixtures |
 
 ---
 
 ## 💼 Professional Experience
 
-**Digital Marketing & Web Optimization Specialist** | *CIM* (4 years)
-*   Architected and maintained production analytics systems at a national scale.
-*   Developed comprehensive Python/SQL data pipelines, orchestrated A/B testing infrastructure, and built automated executive dashboards.
+**Digital Marketing & Systems Analytics Specialist** | *CIM (Canadian Institute of Mining)* · 4 years
+- Architected and deployed the enterprise SEO & Analytics Orchestrator (Python/asyncio), automating reporting and technical audits across GA4, GSC, and Monday.com.
+- Engineered production analytics at national scale — Python/SQL data pipelines, predictive modeling, and A/B testing infrastructure.
 
-**Agribusiness Intern** | *FarNorth Fungi* (Anchorage, AK)
-*   Deployed a Computer Vision and IoT pipeline to establish real-time environmental monitoring for commercial mushroom cultivation. 
-*   Optimized TensorFlow models to operate efficiently under constrained agricultural hardware conditions.
-
-**Food Pantry Coordinator** | *Wayne State College* (2025 – Present)
-*   Direct logistics and community operations management, ensuring continuous supply chain flow and equitable distribution.
+**Agribusiness Intern** | *FarNorth Fungi, Anchorage AK*
+- Developed a Computer Vision + IoT pipeline for real-time mushroom cultivation monitoring using TensorFlow under real agricultural constraints.
 
 ---
 
-## 🎓 Education & Credentials
+## 🎓 Education & Certifications
 
-**Wayne State College** (Expected 2027)
-*   B.S. Cybersecurity
-*   B.Sc. Computer Science 
-
-**Professional Certifications**
-*   **Data Science Professional Certificate** — IBM
-*   **Machine Learning with Python** — IBM
-*   **Financial Markets (Honors)** — Yale University
-*   **Responsive Web Design** — freeCodeCamp
+- **B.S. Cybersecurity + B.Sc. in Computer Science** | Wayne State College (Expected 2027)
+- **IBM Data Science Professional Certificate**
+- **Machine Learning with Python** | IBM
+- **Financial Markets (with Honors)** | Yale University
+- **Responsive Web Design** | freeCodeCamp
 
 ---
 
