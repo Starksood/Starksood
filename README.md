@@ -23,7 +23,7 @@ While actively engineering research-driven systems—ranging from deterministic 
 
 ---
 
-### 🌸 Fireweed Fabric — Memory-First AI Architecture
+### 🌸 Fireweed Fabric — Memory-First AI Architecture [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21278302.svg)](https://doi.org/10.5281/zenodo.21278301)
 > **In Development (Private Repo)** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
 📊 Fireweed — Paper Verification Bundle
 > **Public Archive** · [GitHub](https://github.com/Starksood/Fireweed_Fabric) Independent verification repository for the paper *"A Model-Independent Memory Substrate: Preserving an Agent's Account of a User Across LLM Swaps, Scales, and Families."*
