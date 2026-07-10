@@ -6,6 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanyam--sood/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snym.sood@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Starksood)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21278302.svg)](https://doi.org/10.5281/zenodo.21278301)
 
 </div>
 
