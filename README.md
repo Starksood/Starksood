@@ -14,7 +14,7 @@
 
 ### 👨‍💻 About Me
 
-Senior at **Wayne State College** pursuing a dual degree: **B.S. Cybersecurity & B.Sc. Computer Science**. Backed by four years of professional analytics work at a national-scale organization, my current focus bridges foundational security principles with advanced computer science R&D.
+Senior at **Wayne State College** pursuing a dual degree: **B.S. Cybersecurity & B.B.A Business Administration**. Backed by four years of professional analytics work at a national-scale organization, my current focus bridges foundational security principles with advanced computer science R&D.
 
 While actively engineering research-driven systems—ranging from deterministic AI memory substrates to enterprise-grade data pipelines—I am concurrently advancing my infrastructure and security expertise by working toward my **CompTIA Security+** and **CompTIA Network+** certifications.
 
