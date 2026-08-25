@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanyam--sood/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snym.sood@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Starksood)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21278302.svg)](https://doi.org/10.5281/zenodo.21278301)
+[![PyPI](https://img.shields.io/pypi/v/fireweed-mcp?style=for-the-badge&logo=pypi&logoColor=white&label=fireweed-mcp)](https://pypi.org/project/fireweed-mcp/)
 
 </div>
 
@@ -14,7 +14,7 @@
 
 ### 👨‍💻 About Me
 
-Senior at **Wayne State College** pursuing a dual degree: **B.S. Cybersecurity & B.Sc. Computer Science**. Backed by four years of professional analytics work at a national-scale organization, my current focus bridges foundational security principles with advanced computer science R&D. 
+Senior at **Wayne State College** pursuing a dual degree: **B.S. Cybersecurity & B.Sc. Computer Science**. Backed by four years of professional analytics work at a national-scale organization, my current focus bridges foundational security principles with advanced computer science R&D.
 
 While actively engineering research-driven systems—ranging from deterministic AI memory substrates to enterprise-grade data pipelines—I am concurrently advancing my infrastructure and security expertise by working toward my **CompTIA Security+** and **CompTIA Network+** certifications.
 
@@ -24,22 +24,30 @@ While actively engineering research-driven systems—ranging from deterministic 
 
 ---
 
-### 🌸 Fireweed Fabric — Memory-First AI Architecture [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21278302.svg)](https://doi.org/10.5281/zenodo.21278301)
-> **(Private Repo)** · [GitHub](https://github.com/Starksood/Fireweed) · `v15-redesign`
-📊 Fireweed — Paper Verification Bundle
-> **Public Archive** · [GitHub](https://github.com/Starksood/Fireweed_Fabric) Independent verification repository for the paper *"A Model-Independent Memory Substrate: Preserving an Agent's Account of a User Across LLM Swaps, Scales, and Families."*
+### 🌸 Fireweed — Deterministic Memory for AI Agents
 
-Research system for **persistent, emotionally-weighted LLM memory** — architecturally distinct from RAG. A per-user **memory graph** accumulates structured claims across sessions; a fine-tuned memory operator proposes graph ops while deterministic Python enforces mutations and domain safety.
+> **Shipped:** [`pip install fireweed-mcp`](https://pypi.org/project/fireweed-mcp/) · [GitHub](https://github.com/Starksood/fireweed-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/) · [Write-up on DEV](https://dev.to/starksood/i-built-an-mcp-memory-server-where-code-not-the-model-decides-what-gets-stored-497j)
 
-**Thesis:** *accumulation* (biological reinforcement) + *synthesis* (INFER/REFLECT) + *inhabitation* (respond from durable knowledge, not chunk lookup).
+Most agent memory lets a language model decide what gets written down — which puts the component that hallucinates in charge of the record. Fireweed inverts that: **the model proposes, deterministic code decides, and nothing ungrounded is committed.**
+
+An agent submits a claim *and the verbatim text it is quoting*. Four pure functions decide admission — does the evidence name the subject, preserve the relation, invent no numbers, assert nothing the span does not say. Nothing in the server calls an LLM.
 
 | Dimension | Details |
 |---|---|
-| **Memory Fabric** | Stateful node graph — CREATE / REINFORCE / MODIFY / DISPUTE / FREEZE; cosine dedup (≥0.94); WARM→HOT→CORE via strength `r`; idle decay `0.012×turns`; atomic snapshot I/O. |
-| **v2.0 Substrate** | Affective valence `[-1,1]` modulates decay; **curiosity drive** surfaces diverse COLD nodes; **dual-process routing** gated on compliance + constitutional events. |
-| **v16 Pipeline** | LLM emits normalized claims → **Memory Claim Firewall** → deterministic resolver. Extraction is strictly decoupled from mutation. |
-| **Validation** | **320+ pytest** incl. Hypothesis property tests; ingestion trace harnesses. Benchmark against Mem0 + RAG ablation baselines. |
-| **Stack** | Python · FastAPI · httpx · LM Studio/Ollama · TRL/PEFT fine-tune pipeline · Docker |
+| **Adjudicated writes** | Typed refusals (`REFUSED (asserts_more_than_evidence)`) that state the claim, the evidence, and the fix — a gate that only says "no" cannot be worked with. |
+| **Verifiable provenance** | Every admitted fact binds to a byte range in its source. `verify_receipts` re-hashes and re-slices, so tampering makes a receipt **fail** rather than silently stay green. |
+| **Redactable receipts** | Merkle-tree binding over document parts, so erasing one subject leaves *other* parties' proofs intact — the redactable-signature construction, applied to provenance. |
+| **Provable erasure** | Exact structural closure, crypto-shredding under a per-subject key, a durable tombstone preventing silent re-admission, and an Ed25519 certificate a third party can verify without being able to forge. |
+| **Engineering** | ~10k LOC deterministic engine · **1,092 tests** · append-only hash-chained ledger · zero runtime dependencies · open storage format with a stdlib-only reader. |
+| **Stack** | Python 3.9–3.13 · MCP over stdio JSON-RPC (hand-implemented) · SQLite · AES-256-GCM / Ed25519 · PyPI Trusted Publishing via GitHub OIDC |
+
+**Research.** *A Model-Independent Memory Substrate: Preserving an Agent's Account of a User Across LLM Swaps, Scales, and Families* — treating the memory system as the durable object and the language model as interchangeable. Measured semantic agreement of ~0.8 when the account is read back across model families and scales.
+
+> 📄 [**aiXiv preprint**](https://aixiv.science/abs/aixiv.260709.000003) · [**OpenReview**](https://openreview.net/pdf?id=mVgwFd5K0B) · [**Zenodo DOI**](https://doi.org/10.5281/zenodo.21278301) · [**Verification bundle**](https://github.com/Starksood/Fireweed_Fabric) — recompute every load-bearing number offline, no GPU required.
+
+**On measurement, which is most of what I learned here.** One result in that work — a scaled abstention benchmark reporting zero false assertions — turned out to be measuring an empty database: 721 of 722 stores held no nodes, and a corpus where "I don't know" is always the correct answer makes an empty store score perfectly. I withdrew that claim publicly, with the raw data and a command anyone can run to confirm the failure, rather than quietly correcting it: **[RETRACTION.md](https://github.com/Starksood/Fireweed_Fabric/blob/main/RETRACTION.md)**. The interchangeability results the paper is built on were measured on different corpora with populated substrates and are unaffected — the retraction says exactly which claims stand and which does not.
+
+Everything since has been built around that lesson. When the corrected recall figure looked bad, I decomposed it instead of burying it — where the answer is genuinely in the store, the gate finds it 98.4% of the time, and most of the apparent failure was the benchmark's own extraction losing facts before they were ever stored. When a later change looked excellent, I built a corpus capable of *disproving* it, watched it collapse a core property by 60 points, and reverted it.
 
 ---
 
@@ -91,9 +99,11 @@ A full-stack market intelligence platform aggregating sold auction data from **1
 | **Languages** | Python, JavaScript/TypeScript (ES6+), SQL, HTML5/CSS3 |
 | **Backend & Orchestration** | FastAPI, asyncio, SQLAlchemy 2.x, Playwright, pandas |
 | **Data & AI** | PostgreSQL, Redis, Groq (Llama-3.3-70b), Ollama, TRL/PEFT, TensorFlow, Scikit-learn |
+| **Protocols & Packaging** | Model Context Protocol (MCP), JSON-RPC over stdio, PyPI Trusted Publishing (OIDC), semantic versioning |
+| **Applied Cryptography** | AES-256-GCM, Ed25519, HMAC-SHA256, Merkle trees, hash-chained append-only logs, crypto-shredding |
 | **Infrastructure & DevOps** | GitHub Actions (CI/CD), Koyeb, Vercel, AWS, Neon, Upstash, Docker |
 | **Frontend** | React 18, Vite, Tailwind CSS, Recharts |
-| **Security & Quality** | SHA-256 Auth, HMAC Verification, Rate Limiting, pytest, Hypothesis |
+| **Testing & Quality** | pytest, Hypothesis property tests, adversarial corpora, cross-version release gates (3.9–3.13) |
 
 ---
 
@@ -107,7 +117,7 @@ A full-stack market intelligence platform aggregating sold auction data from **1
 *   Developed comprehensive Python/SQL data pipelines, orchestrated A/B testing infrastructure, and built automated executive dashboards.
 
 **Agribusiness Intern** | *FarNorth Fungi* (Anchorage, AK)
-*   Deployed a Computer Vision and IoT pipeline to establish real-time environmental monitoring for commercial mushroom cultivation. 
+*   Deployed a Computer Vision and IoT pipeline to establish real-time environmental monitoring for commercial mushroom cultivation.
 *   Optimized TensorFlow models to operate efficiently under constrained agricultural hardware conditions.
 
 **Food Pantry Coordinator** | *Wayne State College* (2025 – Present)
@@ -119,7 +129,11 @@ A full-stack market intelligence platform aggregating sold auction data from **1
 
 **Wayne State College** (Expected 2027)
 *   B.S. Cybersecurity
-*   B.Sc. Computer Science 
+*   B.Sc. Computer Science
+
+**Awards & Recognition**
+*   **Honorary Reviewer** — AIAgents4Qual Conference (2026)
+*   **Semi-Finalist** — AWS $10,000 AI Ideas Competition (Alfred & AMMA)
 
 **Professional Certifications**
 *   **CompTIA Security+** (In Progress)
