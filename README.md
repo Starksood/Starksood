@@ -142,6 +142,7 @@ A full-stack market intelligence platform aggregating sold auction data from **1
 *   **Machine Learning with Python** — IBM
 *   **Financial Markets (Honors)** — Yale University
 *   **Responsive Web Design** — freeCodeCamp
+*   **NSE 1, 2, & 3** - Fortinet
 
 ---
 
