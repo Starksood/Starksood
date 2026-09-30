@@ -52,18 +52,21 @@ Everything since has been built around that lesson. When the corrected recall fi
 ---
 
 ### 📈 CIM SEO Automation Platform
-> **Enterprise Tooling (Private Repo)** · Analytics Orchestration · AI Intelligence
+> **Enterprise Tooling (Private Repo)** · Analytics Orchestration · Content Intelligence · AI Reporting
 
-An enterprise-grade automation platform that orchestrates multiple monitoring and reporting workflows, unifying data from Google Analytics 4, Search Console, and PageSpeed Insights into a centralized, AI-enhanced intelligence pipeline for stakeholder decision-making.
+An enterprise-grade SEO and content intelligence platform that orchestrates weekly and monthly reporting workflows across search, analytics, technical SEO, email marketing, and content strategy. The system unifies data from Google Analytics 4, Search Console, PageSpeed Insights, Mailchimp, Monday.com, and Google Sheets into a centralized, AI-enhanced reporting pipeline for stakeholder decision-making.
 
 | Dimension | Details |
-|---|---|
-| **Architecture** | Master orchestrator pattern routing to parallel API-based analytics pipelines and serial crawl-based technical workers. |
-| **Data Ingestion** | Automated extraction from GA4 Data API, GSC API (queries, landings, ranking positions), and PageSpeed Insights (Core Web Vitals). |
-| **Technical Audits** | Async crawler utilizing Playwright and BeautifulSoup for broken link detection, internal link structure analysis, and orphan page identification. |
-| **AI Integration** | Groq (Llama-3.3-70b) integration to evaluate pages for AI-search readiness, hallucination risk, and executive summary generation. |
-| **Data I/O & Sync** | Bidirectional syncing with Monday.com via GraphQL, historical persistence in Google Sheets, and automated multi-format output (PDF via WeasyPrint, HTML dashboards, CSV, Markdown). |
-| **Stack** | Python 3.8+ · asyncio · Playwright · pandas · Groq SDK · Monday.com API · WeasyPrint |
+| --------- | ------- |
+| **Architecture** | Master orchestrator pattern with parallel API-based reporting pipelines, sequential crawl-based technical workers, and separate weekly/monthly reporting layers. |
+| **Data Ingestion** | Automated extraction from GA4 Data API, Google Search Console API, PageSpeed Insights, Mailchimp Marketing API, Monday.com, and Google Sheets. |
+| **Reporting Pipelines** | Weekly reports for GSC, GA4, keyword rankings, landing pages, site speed, broken links, internal linking, content audit, content categories, AI snippet readiness, Mailchimp, and Content Strategy. |
+| **Content Intelligence** | Content Strategy report combining search visibility, GA4 engagement, Mailchimp clicks, content audit signals, internal-link support, and category performance to identify champions, refresh candidates, distribution gaps, and engagement risks. |
+| **Technical Audits** | Async crawlers using Playwright, BeautifulSoup, aiohttp, and requests for broken link detection, internal link structure analysis, redirect tracking, orphan-like page discovery, and remediation queues. |
+| **AI Integration** | Groq/OpenAI-compatible model integration for executive summaries, SEO intelligence, AI-search readiness checks, hallucination risk review, and prioritized action recommendations. |
+| **Data I/O & Sync** | Monday.com GraphQL uploads, Google Sheets historical persistence, GitHub Actions artifact pipelines, report manifests, quality-warning exports, normalized CSVs, self-contained HTML dashboards, CSV, JSON, and Markdown outputs. |
+| **Automation** | GitHub Actions schedules individual Monday reports, monthly aggregate dashboards, artifact restoration, source-data fallbacks, and post-run quality finalization. |
+| **Stack** | Python 3.11 · pandas · asyncio · aiohttp · Playwright · BeautifulSoup · matplotlib · Google APIs · Mailchimp Marketing API · Monday.com GraphQL · Groq/OpenAI SDK · GitHub Actions |
 
 ---
 
