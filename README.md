@@ -71,18 +71,14 @@ An enterprise-grade SEO and content intelligence platform that orchestrates week
 ---
 
 ### 🏎️ Redline — Collector Car Market Intelligence Platform
-> **Live:** [www.redlineauto.click](https://redlineauto.click) · [API](https://principal-tallou-gavel-3718a78a.koyeb.app) · [Docs](https://principal-tallou-gavel-3718a78a.koyeb.app/docs)
+> Redline Auto(https://redlineauto.click)
+ — Autonomous Collector Car Intelligence & Digital Provenance Atelier
 
-A full-stack market intelligence platform aggregating sold auction data from **14+ sources**, routing it through a multi-factor decision engine to determine real-time vehicle viability and market trends.
-
-| Dimension | Details |
-|---|---|
-| **Data Ingestion** | 8 concurrent async scrapers (BaT, Mecum, Barrett-Jackson, etc.) orchestrated via `asyncio.Semaphore(5)`. |
-| **Decision Engine** | Deal Score (0–100) across 5 weighted factors + Viability Score formula with BUY / WAIT / PASS verdicts. |
-| **Data Quality** | Stringent quarantine layer prior to DB upsert rejecting price anomalies, mileage outliers, and non-vehicle listings. |
-| **Automation** | 11 scheduled GitHub Actions jobs handling daily scraping, normalization, AI summaries, SEO generation, and social distribution. |
-| **Monetization** | Stripe-integrated tiered API (Free → $149/mo Business), Redis sliding-window rate limiting, SHA-256 key auth. |
-| **Stack** | FastAPI · PostgreSQL (Neon) · Redis (Upstash) · React 18 / TypeScript · Vercel · Playwright · Groq |
+Built an autonomous vehicle valuation and digital-twin studio powered by 10,900+ verified auction comps scraped 24/7 across Bring a Trailer, Cars & Bids, and eBay Motors.
+Engineered an interactive 2D Vector Build Studio that models period-correct modifications (wheels, suspension, brakes, aero) and calculates real-time hammer price resale multipliers and exportable Monroney dossiers.
+Designed algorithmic market scoring including P10–P90 percentile valuation bands, a Wait Index (supply velocity indicator), and an automated pre-purchase deal-scoring engine.
+Implemented an autonomous Daily SEO & Marketing Publishing Pipeline that analyzes daily transactions, generates rich editorial market reports, and injects Schema.org (BlogPosting, FAQPage) structured data for search discovery.
+Stack: React 18, TypeScript, Vite, Tailwind CSS, Python (FastAPI), PostgreSQL (Neon), Redis, Vercel Edge.
 
 ---
 
