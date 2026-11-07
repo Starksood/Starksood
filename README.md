@@ -24,6 +24,14 @@ While actively engineering research-driven systems—ranging from deterministic 
 
 ---
 
+**Bazaar** — neighborhood repair-party platform (https://bazaar.me.uk/)
+
+A full-stack web app where people host and join free fix-it gatherings (electronics, bikes, textiles, furniture) in New York, Austin, San Francisco, and Chicago. Built on Next.js 16 + React 19, running on Cloudflare Workers via the ChatGPT Sites platform, with a D1 (SQLite) database and Clerk/Google SSO. Includes a GitHub Actions pipeline that generates and publishes a new AI-written story daily to `bazaar.me.uk/stories` for SEO-driven organic discovery — zero cost, zero manual effort.
+
+**Stack:** Next.js · React 19 · Cloudflare Workers · D1 · Drizzle ORM · Clerk (Google SSO) · Tailwind 4 · TypeScript · GitHub Actions · Gemini API
+
+---
+
 ### 🌸 Fireweed — Deterministic Memory for AI Agents
 
 > **Shipped:** [`pip install fireweed-mcp`](https://pypi.org/project/fireweed-mcp/) · [GitHub](https://github.com/Starksood/fireweed-mcp) · [MCP Registry](https://registry.modelcontextprotocol.io/) · [Write-up on DEV](https://dev.to/starksood/i-built-an-mcp-memory-server-where-code-not-the-model-decides-what-gets-stored-497j)
