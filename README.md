@@ -76,7 +76,6 @@
 
 ## 🚀 Production Platforms & Enterprise Systems
 
-*Color-coded system cards with interactive collapsible engineering specifications — **zero horizontal scrolling**.*
 
 > [!CAUTION]
 > ### 🏎️ SYSTEM 01 // [Redline Auto](https://redlineauto.click) — *Autonomous Collector Car Market Intelligence*
