@@ -72,6 +72,25 @@
 > **On Measurement & Scientific Integrity ([RETRACTION.md](https://github.com/Starksood/Fireweed_Fabric/blob/main/RETRACTION.md)):**
 > One result in that work — a scaled abstention benchmark reporting zero false assertions — turned out to be measuring an empty database (721 of 722 stores held no nodes due to upstream benchmark extraction failure, where answering *"I don't know"* scores 100%). I withdrew that claim publicly with the raw data and a one-line verification command rather than quietly patching it. When I decomposed the corrected recall figure, the admission gate found genuinely stored answers **98.4%** of the time. Later, when a new optimization looked excellent, I built an adversarial corpus capable of *disproving* it, watched it collapse a core property by 60 points, and reverted it.
 
+
+> [!TIP]
+> ### **Ember** — Cryptographic Custody & Verifiable Erasure for AI Memory
+> [![GitHub](https://img.shields.io/badge/GitHub-Starksood%2Fember-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Starksood/ember)
+> [![PyPI](https://img.shields.io/badge/PyPI-ember--custody-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/ember-custody/)
+> ![License](https://img.shields.io/badge/LICENSE-Apache--2.0-2EA44F?style=flat-square)
+>
+> Standalone cryptographic custody layer for **AI agent memory, RAG, and vector stores**, distilled from Fireweed research. Ember tackles the *erasure/receipt trilemma*: remove one person's data and its derived traces without breaking another person's surviving provenance proofs. It wraps existing stores such as **Mem0** and provides independently checkable erasure evidence.
+
+<details open>
+<summary><b>⚡ Click to Toggle Ember Cryptographic Architecture & Validation</b></summary>
+
+* 🔐 **Redactable Merkle Provenance:** Per-leaf salted Merkle receipts preserve bystander inclusion proofs after selective source redaction, without retaining erased plaintext or nonce material.
+* 🗑️ **Verifiable Cascade Erasure:** Tracks shared and derived records across subject boundaries; AES-256-GCM crypto-shredding, HMAC-SHA256 tombstones, and fail-closed Ed25519 certificates prevent silent residuals and re-ingestion.
+* 🧪 **Adversarial Erasure Calibration:** Repository-reported **0/204 leaks** across 7 attack classes and 12 subjects, with separate bystander-survival, receipt-integrity, and clean-replay checks to detect over-deletion.
+* 🛠️ **Stack:** `Python` · `SQLite WAL` · `AES-256-GCM` · `Ed25519` · `HMAC-SHA256` · `Merkle Trees` · `Mem0 Adapter` · `pytest` · `GitHub Actions`
+
+</details>
+
 ---
 
 ## 🚀 Production Platforms & Enterprise Systems
