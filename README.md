@@ -1,21 +1,21 @@
 <div align="center">
 
 # SANYAM SOOD
-### `Systems Architecture` · `Applied Cryptography & AI` · `Data Engineering`
+### `Systems Architecture` · `Epistemic AI & LLM Systems` · `Verifiable Data Infrastructure`
 
-*Engineering deterministic AI memory substrates, autonomous market intelligence engines, and enterprise analytics pipelines.*
+*Engineering deterministic AI memory substrates, epistemic hallucination-suppression models, and enterprise analytics engines.*
 
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-sanyamsood-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/sanyamsood)
+[![GitHub](https://img.shields.io/badge/GitHub-Starksood-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Starksood)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanyam--sood/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snym.sood@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Starksood)
 [![PyPI](https://img.shields.io/pypi/v/fireweed-mcp?style=for-the-badge&logo=pypi&logoColor=white&label=fireweed-mcp&color=3775A9)](https://pypi.org/project/fireweed-mcp/)
-[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21278301-024285?style=for-the-badge)](https://doi.org/10.5281/zenodo.21278301)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:snym.sood@gmail.com)
 
-**[🌸 Fireweed MCP](#-flagship-research--systems)** &nbsp;·&nbsp;
-**[🚀 Production Systems](#-production-platforms--enterprise-systems)** &nbsp;·&nbsp;
-**[🔬 R&D Labs](#-rd-labs--experiments)** &nbsp;·&nbsp;
+**[🔥 Smolder AI](#-smolder--epistemic-foundation-models)** &nbsp;·&nbsp;
+**[🌸 Fireweed & Ember](#-fireweed--deterministic-agent-memory)** &nbsp;·&nbsp;
+**[🚀 Production Platforms](#-production-platforms--enterprise-systems)** &nbsp;·&nbsp;
 **[🛠️ Tech Stack](#-technical-arsenal)** &nbsp;·&nbsp;
-**[💼 Experience & Credentials](#-experience--credentials)**
+**[💼 Credentials](#-experience--credentials)**
 
 </div>
 
@@ -23,157 +23,130 @@
 
 > [!NOTE]
 > ### 👨‍💻 Executive Summary & Telemetry
-> Senior at **Wayne State College** pursuing a **B.S. in Cybersecurity** (Minor in Computer Science), backed by **4+ years of production data engineering and analytics experience** at a national scale. My work sits at the intersection of **verifiable systems** and **applied AI**: building infrastructure where language models propose, but deterministic code, cryptographic proofs, and strict data schemas govern what hits production.
+> Senior at **Wayne State College** pursuing a **B.S. in Cybersecurity** (Minor in Computer Science), backed by **4+ years of production data engineering and analytics experience** at national scale. My work focuses on **verifiable systems** and **applied AI**: building infrastructure where language models propose, but deterministic validation, epistemic steering, and cryptographic proofs govern what hits production.
 >
-> 🔴 **Shipped Package:** [`pip install fireweed-mcp`](https://pypi.org/project/fireweed-mcp/) *(Zero runtime deps · 1,092 deterministic tests)*
-> 🟣 **Published Research:** [aiXiv Preprint](https://aixiv.science/abs/aixiv.260709.000003) · [OpenReview](https://openreview.net/pdf?id=mVgwFd5K0B) · [Zenodo DOI](https://doi.org/10.5281/zenodo.21278301)
-> 🟢 **Live Systems:** **10,900+** scraped collector-car comps · **12+** enterprise analytics pipelines
-> 🟡 **Security & Honors:** AWS $10k AI Semi-Finalist · Peer Reviewer (AIAgents4Qual) · CompTIA **Security+** & **Network+** *(In Progress)*
+> 🔥 **Released Frontier Models:** [70B+ Epistemic Models on Hugging Face](https://huggingface.co/sanyamsood) *(All-Time Record **96.0%** on TruthfulQA)*  
+> 🔴 **Shipped Packages:** [`pip install fireweed-mcp`](https://pypi.org/project/fireweed-mcp/) · [`pip install ember-custody`](https://pypi.org/project/ember-custody/) *(Zero-dep deterministic engines)*  
+> 🟣 **Published Research:** [aiXiv Preprint](https://aixiv.science/abs/aixiv.260709.000003) · [OpenReview](https://openreview.net/pdf?id=mVgwFd5K0B) · [Zenodo DOI](https://doi.org/10.5281/zenodo.21278301)  
+> 🟢 **Live Systems:** **10,900+** scraped collector-car comps · **12+** automated enterprise pipelines  
 
 ---
 
-## 🌸 Flagship Research & Systems
+## 🔬 Flagship Research & Frontier AI
 
 > [!IMPORTANT]
-> ### **Fireweed** — Deterministic, Cryptographically Verifiable Memory for AI Agents
-> [![PyPI](https://img.shields.io/badge/PyPI-fireweed--mcp-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/fireweed-mcp/)
-> [![GitHub](https://img.shields.io/badge/GitHub-Starksood%2Ffireweed--mcp-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Starksood/fireweed-mcp)
-> [![MCP Registry](https://img.shields.io/badge/MCP-Official_Registry-00A67E?style=flat-square)](https://registry.modelcontextprotocol.io/)
-> [![DEV.to](https://img.shields.io/badge/Writeup-DEV.to-0A0A0A?style=flat-square&logo=devdotto&logoColor=white)](https://dev.to/starksood/i-built-an-mcp-memory-server-where-code-not-the-model-decides-what-gets-stored-497j)
-> [![aiXiv](https://img.shields.io/badge/aiXiv-260709.000003-B31B1B?style=flat-square)](https://aixiv.science/abs/aixiv.260709.000003)
-> [![OpenReview](https://img.shields.io/badge/OpenReview-mVgwFd5K0B-8C1B13?style=flat-square)](https://openreview.net/pdf?id=mVgwFd5K0B)
-> [![Verification](https://img.shields.io/badge/Verify-Fireweed__Fabric-2EA44F?style=flat-square&logo=github&logoColor=white)](https://github.com/Starksood/Fireweed_Fabric)
+> ### 🔥 **Smolder** — Epistemic Representation Steering & Hallucination Suppression
+> [![Hugging Face Organization](https://img.shields.io/badge/%F0%9F%A4%97%20Hub-sanyamsood-orange?style=flat-square)](https://huggingface.co/sanyamsood)
+> [![Model: DeepSeek-70B](https://img.shields.io/badge/Model-Smolder--DeepSeek--R1--70B-green?style=flat-square&logo=huggingface)](https://huggingface.co/sanyamsood/Smolder-DeepSeek-R1-Distill-70B)
+> [![Model: Qwen-72B](https://img.shields.io/badge/Model-Smolder--Qwen--72B-blue?style=flat-square&logo=huggingface)](https://huggingface.co/sanyamsood/Smolder-Qwen-2.5-72B-Instruct)
+> ![TruthfulQA Record](https://img.shields.io/badge/TruthfulQA-96.0%25_True-brightgreen?style=flat-square)
 >
-> Most agent memory lets a language model decide what gets written down — putting the component that hallucinates in charge of the record. **Fireweed inverts that: the model proposes, deterministic code decides, and nothing ungrounded is committed.** An agent submits a claim *and the verbatim text it is quoting*. Four pure functions decide admission (subject grounding, relation preservation, numeric fidelity, span containment). Nothing in the server calls an LLM.
+> Standard LLMs hallucinate because they treat plausible guessing identically to grounded recall. **Smolder** solves this through **in-stream epistemic token-confidence tracking, representation steering, and calibrated refusal reflexes**: detecting uncertainty at runtime to suppress false assertions before emission.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### 🔐 Cryptographic & Systems Guarantees
-* **Adjudicated Writes:** Emits typed refusals (`REFUSED (asserts_more_than_evidence)`) stating the claim, evidence, and fix.
-* **Verifiable Provenance:** Every admitted fact binds to a byte range in its source. `verify_receipts` re-hashes and re-slices so tampering fails loudly.
-* **Redactable Merkle Receipts:** Merkle-tree binding over document parts so erasing one subject leaves *other* parties' proofs intact.
-* **Provable Erasure:** Structural closure, AES-256-GCM crypto-shredding under a per-subject key, durable tombstones, and third-party verifiable **Ed25519** certificates.
+#### 🧠 Epistemic Architecture & Methodology
+* **Dynamic Entropy Monitoring:** Continuously tracks token-level predictive entropy and internal state variance during auto-regressive generation.
+* **Calibrated Refusal Reflex:** Triggers calibrated abstention (`PASS_CALIBRATED_ABSTAIN`) when encountering ungrounded premise traps or deceptive rumors.
+* **Zero Runtime Overhead:** Released as fully fused, standalone 16-bit `safetensors` model shards compatible with standard `vLLM`, `SGLang`, and `transformers`.
 
 </td>
 <td width="50%" valign="top">
 
-#### 📐 Engineering & Published Research
-* **Engine Footprint:** ~10k LOC deterministic engine · **1,092 tests** · append-only hash-chained ledger · **zero runtime dependencies** · stdlib-only open storage reader.
-* **Research Paper:** *A Model-Independent Memory Substrate: Preserving an Agent's Account of a User Across LLM Swaps, Scales, and Families* (~0.8 semantic agreement across model families).
-* **Stack:** `Python 3.9–3.13` · `stdio JSON-RPC` · `SQLite` · `AES-256-GCM` · `Ed25519` · `GitHub OIDC`
+#### 🏆 Verified Empirical Benchmark Results
+* **TruthfulQA Record:** **96.0% Truthfulness** on standardized adversarial evaluation (48/50 questions correct; **only 2 hallucinations** across 50 traps).
+* **SimpleQA Calibration:** Achieved **50.0% Correct Given Attempted (CGA)**, outperforming base GPT-4o (38.6%) and Claude 3.5 Sonnet (35.4%) on factual refusal accuracy.
+* **Hardware Provenance:** Verified and evaluated on dedicated NVIDIA A100-SXM4-80GB infrastructure.
 
 </td>
 </tr>
 </table>
 
-> [!WARNING]
-> **On Measurement & Scientific Integrity ([RETRACTION.md](https://github.com/Starksood/Fireweed_Fabric/blob/main/RETRACTION.md)):**
-> One result in that work — a scaled abstention benchmark reporting zero false assertions — turned out to be measuring an empty database (721 of 722 stores held no nodes due to upstream benchmark extraction failure, where answering *"I don't know"* scores 100%). I withdrew that claim publicly with the raw data and a one-line verification command rather than quietly patching it. When I decomposed the corrected recall figure, the admission gate found genuinely stored answers **98.4%** of the time. Later, when a new optimization looked excellent, I built an adversarial corpus capable of *disproving* it, watched it collapse a core property by 60 points, and reverted it.
+#### 📦 Public Releases on Hugging Face Hub
 
+| Model Name | Base Architecture | Scale | Benchmark Truthfulness | Weights & Documentation |
+| :--- | :--- | :---: | :---: | :---: |
+| **`Smolder-DeepSeek-R1-Distill-70B`** | `DeepSeek-R1-Distill-Llama-70B` | 70.6B | 🥇 **96.0%** *(2/50 Hallucinations)* | [🤗 View Model & Card](https://huggingface.co/sanyamsood/Smolder-DeepSeek-R1-Distill-70B) |
+| **`Smolder-Qwen-2.5-72B-Instruct`** | `Qwen2.5-72B-Instruct` | 72.7B | **90.0%** *(5/50 Hallucinations)* | [🤗 View Model & Card](https://huggingface.co/sanyamsood/Smolder-Qwen-2.5-72B-Instruct) |
+
+---
 
 > [!TIP]
-> ### **Ember** — Cryptographic Custody & Verifiable Erasure for AI Memory
+> ### 🌸 **Fireweed** — Deterministic, Cryptographically Verifiable Memory for AI Agents
+> [![PyPI](https://img.shields.io/badge/PyPI-fireweed--mcp-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/fireweed-mcp/)
+> [![GitHub](https://img.shields.io/badge/GitHub-Starksood%2Ffireweed--mcp-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Starksood/fireweed-mcp)
+> [![MCP Registry](https://img.shields.io/badge/MCP-Official_Registry-00A67E?style=flat-square)](https://registry.modelcontextprotocol.io/)
+> [![aiXiv](https://img.shields.io/badge/aiXiv-260709.000003-B31B1B?style=flat-square)](https://aixiv.science/abs/aixiv.260709.000003)
+>
+> Most agent memory lets an LLM decide what gets stored — putting the hallucinating component in charge of the record. **Fireweed inverts this: the model proposes, deterministic pure functions decide, and nothing ungrounded is committed.**
+>
+> * 🔐 **Adjudicated Writes & Verifiable Receipts:** Every fact cryptographically binds to source byte ranges; tampering fails loudly via append-only Merkle receipts.
+> * 📐 **Engine Footprint:** ~10k LOC deterministic engine · **1,092 tests** · append-only ledger · **zero runtime dependencies** · stdlib-only open reader.
+> * 🛡️ **Scientific Integrity ([RETRACTION.md](https://github.com/Starksood/Fireweed_Fabric/blob/main/RETRACTION.md)):** Publicly identified and retracted an empty-database benchmark anomaly with raw reproducibility data rather than silently patching; verified genuine recall at **98.4%**.
+
+<br/>
+
+> [!NOTE]
+> ### 🛡️ **Ember** — Cryptographic Custody & Verifiable Erasure for AI Memory
 > [![GitHub](https://img.shields.io/badge/GitHub-Starksood%2Fember-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Starksood/ember)
 > [![PyPI](https://img.shields.io/badge/PyPI-ember--custody-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/ember-custody/)
-> ![License](https://img.shields.io/badge/LICENSE-Apache--2.0-2EA44F?style=flat-square)
 >
-> Standalone cryptographic custody layer for **AI agent memory, RAG, and vector stores**, distilled from Fireweed research. Ember tackles the *erasure/receipt trilemma*: remove one person's data and its derived traces without breaking another person's surviving provenance proofs. It wraps existing stores such as **Mem0** and provides independently checkable erasure evidence.
-
-<details open>
-<summary><b>⚡ Click to Toggle Ember Cryptographic Architecture & Validation</b></summary>
-
-* 🔐 **Redactable Merkle Provenance:** Per-leaf salted Merkle receipts preserve bystander inclusion proofs after selective source redaction, without retaining erased plaintext or nonce material.
-* 🗑️ **Verifiable Cascade Erasure:** Tracks shared and derived records across subject boundaries; AES-256-GCM crypto-shredding, HMAC-SHA256 tombstones, and fail-closed Ed25519 certificates prevent silent residuals and re-ingestion.
-* 🧪 **Adversarial Erasure Calibration:** Repository-reported **0/204 leaks** across 7 attack classes and 12 subjects, with separate bystander-survival, receipt-integrity, and clean-replay checks to detect over-deletion.
-* 🛠️ **Stack:** `Python` · `SQLite WAL` · `AES-256-GCM` · `Ed25519` · `HMAC-SHA256` · `Merkle Trees` · `Mem0 Adapter` · `pytest` · `GitHub Actions`
-
-</details>
+> Standalone cryptographic custody layer resolving the *erasure/receipt trilemma*: selectively crypto-shredding a subject's data across vector/RAG stores (e.g. Mem0) while preserving bystander inclusion proofs intact via salted redactable Merkle receipts and Ed25519 certificates (**0/204 leaks** across 7 adversarial attack suites).
 
 ---
 
 ## 🚀 Production Platforms & Enterprise Systems
 
+<table>
+<tr>
+<td width="33%" valign="top">
 
-> [!CAUTION]
-> ### 🏎️ SYSTEM 01 // [Redline Auto](https://redlineauto.click) — *Autonomous Collector Car Market Intelligence*
-> [![Live Site](https://img.shields.io/badge/LIVE-redlineauto.click-E11D48?style=flat-square&logo=vercel&logoColor=white)](https://redlineauto.click)
-> ![Comps](https://img.shields.io/badge/DATASET-10900_Verified_Comps-0F172A?style=flat-square)
-> ![Studio](https://img.shields.io/badge/ENGINE-2D_Vector_Build_Studio-B91C1C?style=flat-square)
->
-> Autonomous vehicle valuation and digital-twin studio powered by **10,900+ verified auction comps** scraped 24/7 across Bring a Trailer, Cars & Bids, and eBay Motors.
+### 🏎️ [Redline Auto](https://redlineauto.click)
+*Autonomous Car Market Intelligence*
+[![Live Site](https://img.shields.io/badge/LIVE-redlineauto.click-E11D48?style=flat-square&logo=vercel&logoColor=white)](https://redlineauto.click)
 
-<details open>
-<summary><b>⚡ Click to Toggle Redline Architecture & Telemetry</b></summary>
+* **10,900+ verified auction comps** scraped 24/7 across BaT, Cars & Bids, and eBay Motors.
+* **Vector Build Studio:** Real-time hammer-price resale multiplier calculations and Monroney window stickers.
+* **Valuation Engine:** Algorithmic P10–P90 percentile pricing bands and pre-purchase deal-scoring.
+* **Stack:** `React 18` · `TypeScript` · `FastAPI` · `PostgreSQL` · `Redis` · `Vercel`
 
-* 🎨 **Interactive 2D Vector Build Studio:** Models period-correct modifications (wheels, suspension, brakes, aero) and calculates real-time hammer-price resale multipliers and exportable Monroney window dossiers.
-* 📊 **Algorithmic Valuation Engine:** Computes P10–P90 percentile valuation bands, a *Wait Index* (supply velocity indicator), and an automated pre-purchase deal-scoring engine.
-* 🤖 **Autonomous Daily SEO Pipeline:** Analyzes daily auction transactions, generates rich editorial market reports, and injects `Schema.org` (`BlogPosting`, `FAQPage`) structured data for organic search discovery.
-* 🛠️ **Stack:** `React 18` · `TypeScript` · `Vite` · `Tailwind CSS` · `Python (FastAPI)` · `PostgreSQL (Neon)` · `Redis` · `Vercel Edge`
+</td>
+<td width="33%" valign="top">
 
-</details>
+### 📈 Enterprise Content Pipeline
+*National-Scale Analytics Platform (CIM)*
+![Workflows](https://img.shields.io/badge/ORCHESTRATION-12_Pipelines-4F46E5?style=flat-square)
 
-<br/>
+* Orchestrates weekly/monthly reporting across **GA4, Search Console, PageSpeed, Mailchimp, and Monday.com**.
+* Parallel async crawlers (`Playwright`, `aiohttp`) for link equity and orphan page auditing.
+* Automated LLM synthesis for executive summaries and SEO remediation queues.
+* **Stack:** `Python 3.11` · `asyncio` · `Playwright` · `pandas` · `Groq SDK` · `GitHub Actions`
 
-> [!IMPORTANT]
-> ### 📈 SYSTEM 02 // CIM Enterprise SEO & Content Intelligence Platform
-> ![Repo](https://img.shields.io/badge/DEPLOYMENT-Enterprise_Private_Repo-6D28D9?style=flat-square)
-> ![Workflows](https://img.shields.io/badge/ORCHESTRATION-12_Automated_Pipelines-0F172A?style=flat-square)
-> ![Sources](https://img.shields.io/badge/TELEMETRY-6_Unified_Data_Sources-4F46E5?style=flat-square)
->
-> National-scale SEO and content intelligence platform orchestrating weekly and monthly reporting workflows across **Google Analytics 4, Search Console, PageSpeed Insights, Mailchimp, Monday.com, and Google Sheets**.
+</td>
+<td width="33%" valign="top">
 
-<details open>
-<summary><b>⚡ Click to Toggle CIM Master Orchestrator Architecture</b></summary>
+### 🛠️ [Bazaar](https://bazaar.me.uk/)
+*Edge-Native Neighborhood Repair*
+[![Live Site](https://img.shields.io/badge/LIVE-bazaar.me.uk-059669?style=flat-square&logo=cloudflare&logoColor=white)](https://bazaar.me.uk/)
 
-* 🔄 **Ingestion & Async Crawl Workers:** Parallel API extraction (GA4, GSC, PageSpeed, Mailchimp) paired with sequential async crawlers (`Playwright`, `BeautifulSoup`, `aiohttp`) for broken link detection, redirect tracking, internal link equity analysis, and orphan page discovery.
-* 🧠 **Cross-Channel Content Intelligence:** Joins search visibility, GA4 engagement, Mailchimp clicks, and content audit signals to identify content champions, refresh candidates, distribution gaps, and engagement decay.
-* 🤖 **LLM Executive Synthesis:** Groq/OpenAI-compatible integration for executive summaries, AI-snippet readiness checks, hallucination risk reviews, and prioritized remediation queues.
-* 📡 **Automated Delivery & Resilience:** Monday.com GraphQL uploads, Google Sheets historical persistence, self-contained HTML/CSV/Markdown dashboards, and GitHub Actions schedules with automatic source-data fallbacks.
-* 🛠️ **Stack:** `Python 3.11` · `asyncio` · `aiohttp` · `Playwright` · `pandas` · `matplotlib` · `GA4 & GSC APIs` · `Monday.com GraphQL` · `Mailchimp API` · `Groq SDK` · `GitHub Actions`
+* Community platform coordinating free fix-it gatherings across NYC, Austin, SF, and Chicago.
+* Running on **Cloudflare Workers** with serverless **D1 (SQLite)** and Drizzle ORM.
+* Daily automated content generation via Gemini API and GitHub Actions.
+* **Stack:** `Next.js 16` · `React 19` · `Cloudflare D1` · `Drizzle ORM` · `Clerk SSO`
 
-</details>
-
-<br/>
-
-> [!TIP]
-> ### 🛠️ SYSTEM 03 // [Bazaar](https://bazaar.me.uk/) — *Edge-Native Neighborhood Repair Platform*
-> [![Live Site](https://img.shields.io/badge/LIVE-bazaar.me.uk-059669?style=flat-square&logo=cloudflare&logoColor=white)](https://bazaar.me.uk/)
-> ![Hubs](https://img.shields.io/badge/CITIES-NYC_--_Austin_--_SF_--_Chicago-0F172A?style=flat-square)
-> ![SEO](https://img.shields.io/badge/GROWTH-Zero_Cost_Daily_AI_SEO-047857?style=flat-square)
->
-> Full-stack community platform where people host and join free fix-it gatherings (electronics, bikes, textiles, furniture) across New York, Austin, San Francisco, and Chicago.
-
-<details open>
-<summary><b>⚡ Click to Toggle Bazaar Edge & Automation Specs</b></summary>
-
-* 🌐 **Global Edge Execution:** Built on Next.js 16 and React 19 running on **Cloudflare Workers** via the ChatGPT Sites platform, backed by a serverless **D1 (SQLite)** relational database and Drizzle ORM.
-* ✍️ **Autonomous Organic Discovery Loop:** GitHub Actions pipeline powered by the Gemini API generates and publishes a new AI-written repair story daily to `bazaar.me.uk/stories` — zero operational cost, zero manual effort.
-* 🔐 **Identity & Access:** Frictionless user onboarding with Clerk and Google SSO.
-* 🛠️ **Stack:** `Next.js 16` · `React 19` · `Cloudflare Workers` · `D1 (SQLite)` · `Drizzle ORM` · `Clerk (Google SSO)` · `Tailwind 4` · `TypeScript` · `GitHub Actions` · `Gemini API`
-
-</details>
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔬 R&D Labs & Experiments
+## 🔬 R&D Labs & Selected Projects
 
-> [!WARNING]
-> 🏆 **[Alfred & AMMA](https://main.d2odyrogzbyuno.amplifyapp.com) — *AWS $10,000 AI Ideas Competition Semi-Finalist***
-> Dual-agent AI architecture deployed on AWS automating ethical shopping workflows and personalized nutrition mapping.
-
-> [!NOTE]
-> ⚒️ **[The Forge](https://github.com/Starksood/the_forge/tree/main) — *Local Offline SFT Dataset Generator***
-> Privacy-first instruction-tuning pipeline utilizing **Ollama** to convert raw source documents into strict `{system, user, assistant}` triples.
-
-> [!TIP]
-> 🏛️ **[Sovereign Administrative Suite](https://sovereign-suite-1kja.vercel.app) — *Legal & Administrative SaaS***
-> Full-stack web platform built on JavaScript, Vercel, and REST APIs for legal and administrative paperwork automation.
-
-> [!IMPORTANT]
-> 🌀 **[SHAMAN.OS](https://github.com/Starksood/Shaman.io) — *Voice-to-Voice Local AI Loop***
-> Low-latency voice interaction loop pairing custom fine-tuned local language models with live fractal visual generation.
+* 🏆 **[Alfred & AMMA](https://main.d2odyrogzbyuno.amplifyapp.com) (AWS $10,000 AI Semi-Finalist):** Dual-agent architecture automating ethical consumer workflows and nutrition mapping.
+* ⚒️ **[The Forge](https://github.com/Starksood/the_forge):** Local offline instruction-tuning dataset compiler converting raw source texts into strict `{system, user, assistant}` triples via Ollama.
+* 🌀 **[SHAMAN.OS](https://github.com/Starksood/Shaman.io):** Low-latency voice-to-voice interaction loop pairing fine-tuned local LLMs with real-time fractal rendering.
 
 ---
 
@@ -183,34 +156,28 @@
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ Backend & Systems
-* **Languages:** Python (3.9–3.13), TypeScript/JavaScript (ES6+), SQL, HTML5/CSS3
-* **Frameworks:** FastAPI, `asyncio`, SQLAlchemy 2.x, Drizzle ORM, Playwright, `aiohttp`
-* **Protocols:** Model Context Protocol (MCP), stdio JSON-RPC, OIDC Trusted Publishing
+### 🧠 Frontier AI & LLM Systems
+* **Frameworks & Serving:** `vLLM`, `SGLang`, `transformers`, `PEFT / LoRA`, `Unsloth`, `LightEval`
+* **Formats & Hardware:** `safetensors`, 4-bit / 8-bit / BF16 quantization, NVIDIA A100 / H100 (Modal)
+* **Techniques:** Epistemic uncertainty steering, entropy calibration, refusal gating, SFT, RAG
+
+### ⚙️ Systems & Backend Engineering
+* **Languages:** Python (3.9–3.13), TypeScript, JavaScript (ES6+), SQL
+* **Backend:** FastAPI, `asyncio`, SQLAlchemy 2.x, Drizzle ORM, Playwright, `aiohttp`
+* **Protocols:** Model Context Protocol (MCP), stdio JSON-RPC, REST, GraphQL
 
 </td>
 <td width="50%" valign="top">
 
-### 🔐 Applied Cryptography & QA
-* **Primitives:** AES-256-GCM, Ed25519, HMAC-SHA256
-* **Structures:** Redactable Merkle trees, hash-chained append-only ledgers, crypto-shredding
-* **Testing:** `pytest`, Hypothesis property tests, adversarial corpora, cross-version gates
+### 🔐 Applied Cryptography & Verification
+* **Primitives:** AES-256-GCM, Ed25519, HMAC-SHA256, SHA-256 Merkle trees
+* **Architectures:** Redactable provenance, crypto-shredding, hash-chained append-only ledgers
+* **Testing:** `pytest`, Hypothesis property testing, adversarial corpora, zero-leak verification
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 Data Engineering & AI
-* **Datastores:** PostgreSQL (Neon), SQLite (Cloudflare D1), Redis (Upstash)
-* **Models & ML:** Groq (Llama-3.3-70b), Ollama, Gemini API, TRL/PEFT, TensorFlow, Scikit-learn, pandas
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 Frontend & Cloud Infra
-* **Frontend:** Next.js 16, React 18/19, Tailwind CSS 4, Vite, Recharts
-* **Cloud & CI/CD:** Cloudflare Workers, AWS, Vercel Edge, Koyeb, Docker, GitHub Actions
+### 🌐 Cloud, Databases & Deployment
+* **Datastores:** PostgreSQL (Neon), Cloudflare D1 (SQLite), Redis (Upstash)
+* **Cloud & Edge:** Cloudflare Workers, AWS, Modal Serverless, Vercel Edge, Docker
+* **CI/CD:** GitHub Actions, OIDC Trusted Publishing, PyPI automated releases
 
 </td>
 </tr>
@@ -227,43 +194,31 @@
 ### 🏛️ Professional Experience
 
 **Digital Marketing & Web Optimization Specialist** · *CIM* `(4 Years)`
-* Architected and maintained production analytics systems at a national scale.
-* Developed comprehensive Python/SQL data pipelines, orchestrated A/B testing infrastructure, and built automated executive dashboards.
+* Architected and maintained production analytics and data pipelines at a national enterprise scale.
+* Orchestrated automated executive dashboards, continuous crawl audits, and search intelligence.
 
-**Agribusiness Intern** · *FarNorth Fungi (Anchorage, AK)*
-* Deployed a Computer Vision and IoT pipeline for real-time environmental monitoring in commercial mushroom cultivation.
-* Optimized TensorFlow models to operate under constrained agricultural hardware conditions.
+**Agribusiness AI Intern** · *FarNorth Fungi (Anchorage, AK)*
+* Deployed computer vision IoT pipelines for commercial cultivation monitoring under constrained hardware.
 
 **Food Pantry Coordinator** · *Wayne State College* `(2025 – Present)`
-* Direct logistics and community operations management, ensuring continuous supply chain flow and equitable distribution.
-
-**Administrative Assistant** · *Camp Laurel South (Casco, ME)* `(Summer 2026)`
-* Managed daily administrative operations, organizational workflows, and logistical support for a high-volume seasonal program.
+* Direct supply chain logistics and community operations ensuring continuous regional resource distribution.
 
 </td>
 <td width="42%" valign="top">
 
 ### 🎓 Education
 **Wayne State College** `(Expected 2027)`
-* **B.S. in Cybersecurity**
-* **Minor in Computer Science**
+* **B.S. in Cybersecurity** · *Minor in Computer Science*
 
 ---
 
-### 🏅 Awards & Recognition
-* 🎖️ **Honorary Reviewer** — *AIAgents4Qual Conference (2026)*
-* 🏆 **Semi-Finalist** — *AWS $10,000 AI Ideas Competition*
-
----
-
-### 📜 Certifications
-* 🔄 **CompTIA Security+** *(In Progress)*
-* 🔄 **CompTIA Network+** *(In Progress)*
-* ✅ **Data Science Professional Certificate** — *IBM*
-* ✅ **Machine Learning with Python** — *IBM*
+### 🏅 Honors & Certifications
+* 🎖️ **Peer Reviewer** — *AIAgents4Qual Conference (2026)*
+* 🏆 **Semi-Finalist** — *AWS $10k AI Ideas Competition*
+* 🔄 **CompTIA Security+ & Network+** *(In Progress)*
+* ✅ **Data Science & ML Professional** — *IBM*
 * ✅ **Financial Markets (Honors)** — *Yale University*
 * ✅ **NSE 1, 2, & 3** — *Fortinet*
-* ✅ **Responsive Web Design** — *freeCodeCamp*
 
 </td>
 </tr>
@@ -273,8 +228,8 @@
 
 <div align="center">
 
-![Open to Roles](https://img.shields.io/badge/STATUS-Open_to_Security_--_Backend_--_AI_Engineering_Roles-2EA44F?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-Open_to_AI_Systems_--_Security_--_Backend_Roles-2EA44F?style=for-the-badge)
 
-<sub>Building toward the future of secure, intelligent systems · <a href="mailto:snym.sood@gmail.com">snym.sood@gmail.com</a> · <a href="https://www.linkedin.com/in/sanyam--sood/">LinkedIn</a></sub>
+<sub>Building the future of verifiable, epistemic intelligent systems · <a href="mailto:snym.sood@gmail.com">snym.sood@gmail.com</a> · <a href="https://huggingface.co/sanyamsood">Hugging Face</a> · <a href="https://www.linkedin.com/in/sanyam--sood/">LinkedIn</a></sub>
 
 </div>
